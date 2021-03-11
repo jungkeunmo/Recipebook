@@ -1,20 +1,20 @@
 import Writing from "../models/Writing";
 
 const homeController = (req, res) => {
-    res.render("screens/home");
-}
+  res.render("screens/home");
+};
 
-const WritingController = (req, res) => {
-    const WritingList = await Writing.find({}, {});
+const WritingController = async (req, res) => {
+  const WritingList = await Writing.find({}, {});
 
-    console.log(WritingList);
+  console.log(WritingList);
 
-    res.render("screens/Writing", { WritingList });
-}
+  res.render("screens/Writing", { WritingList });
+};
 
 const globalController = {
-    homeController,
-    WritingController,
+  homeController,
+  WritingController,
 };
 
 export default globalController;
