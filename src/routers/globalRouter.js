@@ -4,6 +4,6 @@ import globalController from "../controllers/globalController";
 const globalRouter = express.Router();
 
 globalRouter.get("/", globalController.homeController);
-globalRouter.get("/Writing", globalController.WritingController);
+globalRouter.get("/post", globalController.postController);
 
 export default globalRouter;

@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const Schema = mongoose.Schema;
 
-const Writing = new Schema({
+const post = new Schema({
 
     title: {
         type : String,
@@ -11,4 +11,4 @@ const Writing = new Schema({
 },
 {versionKey: false});
 
-export default mongoose.model(`Writing`, Writing, `Writing`);
+export default mongoose.model(`post`, post, `post`);

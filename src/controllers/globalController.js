@@ -1,20 +1,16 @@
-import Writing from "../models/Writing";
+import post from "../models/post";
 
 const homeController = (req, res) => {
     res.render("screens/home");
 }
 
-const WritingController = (req, res) => {
-    const WritingList = await Writing.find({}, {});
-
-    console.log(WritingList);
-
-    res.render("screens/Writing", { WritingList });
+const postController = async (req, res) => {
+    res.render("screens/post");
 }
 
 const globalController = {
     homeController,
-    WritingController,
+    postController,
 };
 
 export default globalController;
