@@ -46,6 +46,10 @@ input {
   border-bottom: 1px solid #000;
 }
 
+.header .header__col2 .button {
+  cursor: pointer;
+  font-size: 15px;
+}
 .header .header__col3 {
   width: 10%;
   height: 100%;
@@ -57,6 +61,7 @@ input {
   margin: 10px 10px;
   color: #fff;
   font-size: 45px;
+  cursor: pointer;
 }
 
 .header .header__col4 {
