@@ -7,16 +7,15 @@ block content
         
         form(action="")
             .int-area   
-                .label(for="id") USER NAME
                     input(type="text" name="id" id="id" autocompelete="off" required)
-            
+                    label(for="id") USER NAME
 
             .int-area
-                .label(for="pw") PASS WORD
                     input(type="text" name="pw" id="pw" autocompelete="off" required)
+                    label(for="pw") PASS WORD
             
             .but-area
                 button(type="submt") LOGIN
     
-        .caption
-            a(href="") Forgot Password?
+            .caption
+                a(href="") Forgot Password?

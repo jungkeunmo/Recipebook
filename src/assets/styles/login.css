@@ -30,6 +30,7 @@ form {
 .int-area {
   width: 400px;
   position: relative;
+  margin-top: 18px;
 }
 
 .int-area input {
@@ -43,14 +44,23 @@ form {
   outline: none;
 }
 
-.int-area .lable {
+.int-area label {
   position: absolute;
-  left: 10px;
-  top: 15px;
+  left: 80px;
+  top: 30px;
   font-size: 18px;
   color: #999;
+  transition: top 0.5s ease;
+}
+
+.int-area input:focus + label,
+.int-area input:valid + label {
+  top: 0;
+  font-size: 15px;
+  color: #149292;
 }
 
 .caption a {
   color: #000;
+  margin-left: 180px;
 }
