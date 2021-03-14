@@ -209,3 +209,15 @@
   color: lavender;
   font-size: 30px;
 }
+
+.home__col3__main h3 a {
+  margin: 10px 10px;
+  color: indigo;
+  font-size: 30px;
+}
+
+.home__col4__main h3 a {
+  margin: 10px 10px;
+  color: palegreen;
+  font-size: 30px;
+}
