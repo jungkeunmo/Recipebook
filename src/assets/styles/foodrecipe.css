@@ -191,6 +191,7 @@
     
     display: flex;
     flex-direction: row;
+    background-color: #000;
 }
 
 .food .food__col3 .food__col3__sec1 {
@@ -348,20 +349,12 @@
     height: 120px;
 }
 
-.food__col2__sec2__box3 p {
-    margin: 10px 10px;
+.food__col2__sec2 p {
     color: rgb(167, 223, 39);
-    font-size: 30px;
-}
-
-.food__col3__sec2__box3 p {
-    margin: 10px 10px;
-    color: rgb(16, 16, 231);
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .food__col3__sec2 p {
-    margin: 10px 10px;
-    color: rgb(16, 16, 231);
-    font-size: 30px;
+    color: #ffffff;
+    font-size: 20px;
 }
