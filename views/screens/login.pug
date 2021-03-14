@@ -11,12 +11,17 @@ block content
                     label(for="id") USER NAME
 
             .int-area
-                    input(type="text" name="pw" id="pw" autocompelete="off" required)
+                    input(type="password" name="pw" id="pw" autocompelete="off" required)
                     label(for="pw") PASS WORD
             
             .but-area
                 button(type="submt" id="btn") LOGIN
     
             .caption
-                a(href="") Forgot Password?
+                ul.caption__ul
+                    li.caption__ul__list
+                        a(href="/forgotPassword") Forgot Password?
+                        a(href="/signUp") Sign Up
+
+
     
