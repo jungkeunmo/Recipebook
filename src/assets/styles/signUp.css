@@ -33,6 +33,11 @@ form {
   margin-top: 18px;
 }
 
+.int-area p {
+  font-size: 12px;
+  margin-left: 100px;
+}
+
 .int-area input {
   width: 100%;
   padding: 20px 10px 10px;
