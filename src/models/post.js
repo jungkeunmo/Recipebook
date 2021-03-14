@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const Schema = mongoose.Schema;
 
-const post = new Schema(
+const Post = new Schema(
   {
     title: {
       type: String,
@@ -12,4 +12,4 @@ const post = new Schema(
   { versionKey: false }
 );
 
-export default mongoose.model(`post`, post, `post`);
+export default mongoose.model(`Post`, Post, `Post`);

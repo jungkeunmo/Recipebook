@@ -14,16 +14,21 @@ html(lang="en")
         header.header 
             .header__col1.a1
                 .a1__title Recipebook
+                
             .header__col2.a2
-                input(type="text"  placeholder="검색어를 입력해주세요.")
+                input(type="text" placeholder="검색어를 입력해주세요.")
                 button.button 검색
+
             .header__col3
                 .user-circle
                     i.fas.fa-user-circle
-                        a(href="/screens/profile")
-            
+                        
             .header__col4.a4
-                .a4__title 로그인
+                ul.header__col4__ul
+                    li.header__col4__ul__list
+                        a(href="/login") 로그인
+            
+                    
 
         block content  
 

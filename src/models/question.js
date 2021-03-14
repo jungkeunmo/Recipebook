@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const Schema = mongoose.Schema;
 
-const auestion = new Schema(
+const Question = new Schema(
   {
     title: {
       type: String,
@@ -27,4 +27,4 @@ const auestion = new Schema(
   }
 );
 
-export default mongoose.model(`question`, question, `question`);
+export default mongoose.model(`Question`, Question, `Question`);
