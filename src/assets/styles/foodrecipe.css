@@ -40,7 +40,6 @@
     width: 100%;
     height: 90px;
     
-    color: #000;
     font-size: 30px;
 }
 
@@ -62,8 +61,7 @@
 .food .food__col2 .food__col2__sec1 {
     width: 5%;
     height: 500px;
-    
-    background-color: limegreen;
+
 }
 
 .food .food__col2 .food__col2__sec2 {
@@ -78,7 +76,6 @@
     width: 100%;
     height: 100px;
     
-    background-color: salmon;
 }
 
 .food .food__col2 .food__col2__sec2__box2 {
@@ -103,7 +100,7 @@
 
 .food .food__col2 .food__col2__sec2__box2__w1 {
     width: 20%;
-    height: 300px;
+    height: 298px;
     background-image: url("https://img.sbs.co.kr/newsnet/etv/upload/2021/01/08/30000662538_1280.jpg");
     background-size: cover;
     background-position: center center;
@@ -111,7 +108,7 @@
 
 .food .food__col2 .food__col2__sec2__box2__w2 {
     width: 20%;
-    height: 300px;
+    height: 298px;
     
     background-image: url("http://www.aseanexpress.co.kr/data/photos/20200936/art_15990274892541_905fd5.jpg");
     background-size: cover;
@@ -120,7 +117,7 @@
 
 .food .food__col2 .food__col2__sec2__box2__w3 {
     width: 20%;
-    height: 300px;
+    height: 298px;
     
     background-image: url("https://newsimg.hankookilbo.com/cms/articlerelease/2021/02/09/ea90a7f3-d253-48e3-95d1-ceb805a27cd0.jpg");
     background-size: cover;
@@ -129,7 +126,7 @@
 
 .food .food__col2 .food__col2__sec2__box2__w4 {
     width: 20%;
-    height: 300px;
+    height: 298px;
     
     background-image: url("https://img.insight.co.kr/static/2019/10/10/700/2yk6hv66jl7938aa7y21.jpg");
     background-size: cover;
@@ -138,7 +135,7 @@
 
 .food .food__col2 .food__col2__sec2__box2__w5 {
     width: 20%;
-    height: 300px;
+    height: 298px;
     
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScKJPH8meWP6z6bFxY0XJmDGrkOy3Gt9d7VQ&usqp=CAU");
     background-size: cover;
@@ -157,42 +154,35 @@
     width: 20%;
     height: 100px;
     
-    background-color: sienna;
 }
 
 .food .food__col2 .food__col2__sec2__box3__g2 {
     width: 20%;
     height: 100px;
     
-    background-color: rgb(228, 81, 13);
 }
 
 .food .food__col2 .food__col2__sec2__box3__g3 {
     width: 20%;
     height: 100px;
     
-    background-color: rgb(43, 15, 3);
 }
 
 .food .food__col2 .food__col2__sec2__box3__g4 {
     width: 20%;
     height: 100px;
-    
-    background-color: rgb(45, 160, 160);
-}
+}    
 
 .food .food__col2 .food__col2__sec2__box3__g5 {
     width: 20%;
     height: 100px;
     
-    background-color: rgb(170, 32, 112);
 }
 
 .food .food__col2 .food__col2__sec3 {
     width: 5%;
     height: 500px;
     
-    background-color: mediumpurple;
 }
 
 .food .food__col3 {
@@ -207,7 +197,6 @@
     width: 5%;
     height: 500px;
     
-    background-color: orange;
 }
 
 .food .food__col3 .food__col3__sec2 {
@@ -222,7 +211,6 @@
     width: 100%;
     height: 100px;
     
-    background-color: rgb(14, 13, 12);
 }
 
 .food .food__col3 .food__col3__sec2__box2 {
@@ -247,7 +235,7 @@
 
 .food .food__col3 .food__col3__sec2__box2__r1 {
     width: 20%;
-    height: 300px;
+    height: 298px;
     
     background-image: url("https://cdn1.i-scmp.com/sites/default/files/styles/1200x800/public/images/methode/2018/10/24/40769bf6-d740-11e8-a41d-3d2712b32637_1280x720_171954.jpg?itok=ywHhP-6K");
     background-size: cover;
@@ -256,7 +244,7 @@
 
 .food .food__col3 .food__col3__sec2__box2__r2 {
     width: 20%;
-    height: 300px;
+    height: 298px;
     
     background-image: url("https://pbs.twimg.com/profile_images/1325091171308244993/si3Ujk2B_400x400.jpg");
     background-size: cover;
@@ -265,7 +253,7 @@
 
 .food .food__col3 .food__col3__sec2__box2__r3 {
     width: 20%;
-    height: 300px;
+    height: 298px;
     
     background-image: url("https://cdnweb01.wikitree.co.kr/webdata/editor/202005/20/img_20200520095501_040731e0.webp");
     background-size: cover;
@@ -274,7 +262,7 @@
 
 .food .food__col3 .food__col3__sec2__box2__r4 {
     width: 20%;
-    height: 300px;
+    height: 298px;
     
     background-image: url("https://cdn.kihoilbo.co.kr/news/photo/202007/878686_301172_580.jpg");
     background-size: cover;
@@ -283,7 +271,7 @@
 
 .food .food__col3 .food__col3__sec2__box2__r5 {
     width: 20%;
-    height: 300px;
+    height: 298px;
     
     background-image: url("https://mblogthumb-phinf.pstatic.net/MjAyMDA0MDdfMTA1/MDAxNTg2MTg2OTMxNjg1.DrxFEdqGvvnmJ60LtasXNq8AuMtVsAI4_6xwYty7SNEg.SWkH8AHl-Bu915MBTYBSef1C-wLcLaHFpD4hAJlXppMg.JPEG.okmijnuhb489/1586186930537.jpg?type=w800");
     background-size: cover;
@@ -302,42 +290,36 @@
     width: 20%;
     height: 100px;
     
-    background-color: rgb(143, 98, 31);
 }
 
 .food .food__col3 .food__col3__sec2__box3__t2 {
     width: 20%;
     height: 100px;
     
-    background-color: rgb(238, 147, 11);
 }
 
 .food .food__col3 .food__col3__sec2__box3__t3 {
     width: 20%;
     height: 100px;
     
-    background-color: rgb(35, 209, 19);
 }
 
 .food .food__col3 .food__col3__sec2__box3__t4 {
     width: 20%;
     height: 100px;
     
-    background-color: rgb(20, 24, 235);
 }
 
 .food .food__col3 .food__col3__sec2__box3__t5 {
     width: 20%;
     height: 100px;
     
-    background-color: rgb(216, 45, 74);
 }
 
 .food .food__col3 .food__col3__sec3 {
     width: 5%;
     height: 500px;
     
-    background-color: lightsalmon;
 }
 
 .food .food__col4 {
@@ -352,19 +334,34 @@
     width: 5%;
     height: 120px;
     
-    background-color: royalblue;
+    
 }
 
 .food .food__col4 .food__col4__sec2 {
     width: 90%;
     height: 120px;
     
-    background-color: orchid;
 }
 
 .food .food__col4 .food__col4__sec3 {
     width: 5%;
     height: 120px;
-    
-    background-color: pink;
+}
+
+.food__col2__sec2__box3 p {
+    margin: 10px 10px;
+    color: rgb(167, 223, 39);
+    font-size: 30px;
+}
+
+.food__col3__sec2__box3 p {
+    margin: 10px 10px;
+    color: rgb(16, 16, 231);
+    font-size: 30px;
+}
+
+.food__col3__sec2 p {
+    margin: 10px 10px;
+    color: rgb(16, 16, 231);
+    font-size: 30px;
 }
