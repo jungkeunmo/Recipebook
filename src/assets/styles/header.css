@@ -67,8 +67,14 @@ input {
   background-color: #000;
 }
 
-a {
+.header__col1__ul__list a {
   margin: 10px 10px;
   color: #ffeaa7;
   font-size: 30px;
+}
+
+.header__col4__ul__list a {
+  margin: 10px 10px;
+  color: #ffeaa7;
+  font-size: 20px;
 }
