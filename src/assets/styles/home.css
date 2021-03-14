@@ -13,7 +13,28 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  margin-bottom: 60px;
+}
+
+
+.home .home__col1 .home__col1__sec1 {
+  width: 4%;
+  height: 575px;
+  
+  
+}
+
+.home .home__col1 .home__col1__sec2 {
+  width: 92%;
+  height: 575px;
+  
+  
+}
+
+.home .home__col1 .home__col1__sec3 {
+  width: 4%;
+  height: 575px;
+  
+  
 }
 
 .home .home__col2 {
