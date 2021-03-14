@@ -7,13 +7,15 @@ html(lang="en")
         title RecipeBook
         link(rel="stylesheet", href="/styles/styles.css")
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
         link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css")
 
     body
         header.header 
             .header__col1.a1
-                .a1__title Recipebook
+                ul.header__col1__ul
+                    li.header__col1__ul__list
+                        a(href="/") RecipeBook
                 
             .header__col2.a2
                 input(type="text" placeholder="검색어를 입력해주세요.")

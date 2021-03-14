@@ -3,6 +3,7 @@
   height: 60px;
   display: flex;
   flex-direction: row;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 .header .header__col1 {
@@ -18,14 +19,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.a1 .a1__title {
-  font-size: 30px;
-  color: #ffeaa7;
-  font-weight: 700;
-  margin-right: 10px;
-  cursor: pointer;
 }
 
 .header .header__col2 {
@@ -73,7 +66,7 @@ input {
   background-color: #000;
 }
 
-.header__col4__ul__list a {
+a {
   margin: 10px 10px;
   color: #ffeaa7;
   font-size: 30px;
