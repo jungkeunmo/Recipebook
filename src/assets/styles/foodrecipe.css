@@ -2,4 +2,72 @@
     width: 100%;
     height: 2000px;
     
+    display: flex;
+    flex-direction: column;
+}
+
+.food .food__col1 {
+    width: 100%;
+    height: 220px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.food .food__col1 .food__col1__sec1 {
+    width: 5%;
+    height: 220px;
+    
+    
+}
+
+.food .food__col1 .food__col1__sec2 {
+    width: 90%;
+    height: 220px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.food .food__col1 .food__col1__sec2__box1 {
+    width: 100%;
+    height: 110px;
+    
+    
+}
+
+.food .food__col1 .food__col1__sec2__box2 {
+    width: 100%;
+    height: 110px;
+    
+    color: #000;
+    font-size: 30px;
+}
+
+.food .food__col1 .food__col1__sec3 {
+    width: 5%;
+    height: 220px;
+    
+    
+}
+
+.food .food__col2 {
+    width: 100%;
+    height: px;
+    
+    
+}
+
+.food .food__col3 {
+    width: 100%;
+    height: px;
+    
+    
+}
+
+.food .food__col4 {
+    width: 100%;
+    height: px;
+    
+   
 }
