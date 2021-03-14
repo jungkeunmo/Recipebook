@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 250px;
 }
 
 .app1::before {
@@ -62,7 +62,6 @@ form {
 
 .but-area {
   border: none;
-  border-bottom: 1px solid #999;
   cursor: pointer;
 }
 

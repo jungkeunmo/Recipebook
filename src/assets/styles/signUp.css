@@ -1,0 +1,89 @@
+.app2,
+.app1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+
+.app1::before {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+form {
+  position: relative;
+  z-index: 2;
+}
+
+.app1 h1 {
+  font-size: 32px;
+  color: rgb(48, 48, 48);
+  justify-content: center;
+  align-items: center;
+}
+
+.int-area {
+  width: 400px;
+  position: relative;
+  margin-top: 18px;
+}
+
+.int-area input {
+  width: 100%;
+  padding: 20px 10px 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #999;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  outline: none;
+}
+
+.int-area label {
+  position: absolute;
+  left: 80px;
+  top: 30px;
+  font-size: 18px;
+  color: #999;
+  transition: top 0.5s ease;
+}
+
+.int-area input:focus + label,
+.int-area input:valid + label {
+  top: 0;
+  font-size: 15px;
+  color: #1d054b;
+}
+
+.but-area {
+  border: none;
+  cursor: pointer;
+}
+
+.but-area button {
+  width: 100%;
+  height: 50px;
+  background: rgb(119, 119, 231);
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 25px;
+  margin-left: 60px;
+  cursor: pointer;
+}
+
+.caption {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.caption a {
+  font-size: 15px;
+  color: #999;
+  margin: 0px 20px;
+}
