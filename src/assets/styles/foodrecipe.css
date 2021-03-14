@@ -85,7 +85,43 @@
     width: 100%;
     height: 300px;
     
+    display: flex;
+    flex-direction: row;
+}
+
+.food .food__col2 .food__col2__sec2__box2__w1 {
+    width: 20%;
+    height: 300px;
+    
     background-color: seagreen;
+}
+
+.food .food__col2 .food__col2__sec2__box2__w2 {
+    width: 20%;
+    height: 300px;
+    
+    background-color: khaki;
+}
+
+.food .food__col2 .food__col2__sec2__box2__w3 {
+    width: 20%;
+    height: 300px;
+    
+    background-color: papayawhip;
+}
+
+.food .food__col2 .food__col2__sec2__box2__w4 {
+    width: 20%;
+    height: 300px;
+    
+    background-color: pink;
+}
+
+.food .food__col2 .food__col2__sec2__box2__w5 {
+    width: 20%;
+    height: 300px;
+    
+    background-color: indianred;
 }
 
 .food .food__col2 .food__col2__sec2__box3 {
@@ -136,7 +172,42 @@
     width: 100%;
     height: 300px;
     
-    background-color: rgb(189, 255, 173);
+    display: flex;
+    flex-direction: row;
+}
+.food .food__col3 .food__col3__sec2__box2__r1 {
+    width: 20%;
+    height: 300px;
+    
+    background-color: aqua;
+}
+
+.food .food__col3 .food__col3__sec2__box2__r2 {
+    width: 20%;
+    height: 300px;
+    
+    background-color: gold;
+}
+
+.food .food__col3 .food__col3__sec2__box2__r3 {
+    width: 20%;
+    height: 300px;
+    
+    background-color: olive;
+}
+
+.food .food__col3 .food__col3__sec2__box2__r4 {
+    width: 20%;
+    height: 300px;
+    
+    background-color: orange;
+}
+
+.food .food__col3 .food__col3__sec2__box2__r5 {
+    width: 20%;
+    height: 300px;
+    
+    background-color: lightseagreen;
 }
 
 .food .food__col3 .food__col3__sec2__box3 {
