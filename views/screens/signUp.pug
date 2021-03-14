@@ -1,4 +1,31 @@
 extends ../layouts/main.pug
 
 block content
-    h1 sign Up
+    .app1
+        h1 SIGN UP
+    .app2
+        
+        form(action="")
+            .int-area   
+                    input(type="text" name="email" id="email" autocompelete="off" required)
+                    label(for="id") USER EMAIL
+
+            .int-area
+                    input(type="password" name="password" id="password" autocompelete="off" required)
+                    label(for="password") PASS WORD
+
+            .int-area
+                    input(type="password" name="cpassword" id="cpassword" autocompelete="off" required)
+                    label(for="password") ONE PASS WORD
+            
+            .but-area
+                button(type="submt" id="btn") LOGIN
+    
+            .caption
+                ul.caption__ul
+                    li.caption__ul__list
+                        a(href="/forgotPassword") Forgot Password?
+
+
+
+    
