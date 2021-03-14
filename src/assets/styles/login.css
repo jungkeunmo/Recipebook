@@ -59,3 +59,9 @@ form {
   font-size: 15px;
   color: #149292;
 }
+
+.but-area {
+  border: none;
+  border-bottom: 1px solid #999;
+  cursor: pointer;
+}

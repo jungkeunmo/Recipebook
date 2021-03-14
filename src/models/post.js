@@ -8,6 +8,27 @@ const Post = new Schema(
       type: String,
       required: true,
     },
+    content: {
+      type: String,
+      required: true,
+    },
+    hit: {
+      type: Number,
+      required: true,
+    },
+    author: {
+      type: String,
+      required: true,
+    },
+    lastUpdate: {
+      type: String,
+      required: true,
+    },
+    isDelete: {
+      type: Boolean,
+      required: true,
+      default: false,
+    },
   },
   { versionKey: false }
 );
