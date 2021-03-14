@@ -203,3 +203,9 @@
   margin: 10px;
   border-radius: 8px;
 }
+
+.home__col2__main h3 a {
+  margin: 10px 10px;
+  color: lavender;
+  font-size: 30px;
+}
