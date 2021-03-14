@@ -8,7 +8,7 @@
 
 .food .food__col1 {
     width: 100%;
-    height: 220px;
+    height: 180px;
     
     display: flex;
     flex-direction: row;
@@ -16,14 +16,14 @@
 
 .food .food__col1 .food__col1__sec1 {
     width: 5%;
-    height: 220px;
+    height: 180px;
     
     
 }
 
 .food .food__col1 .food__col1__sec2 {
     width: 90%;
-    height: 220px;
+    height: 180px;
     
     display: flex;
     flex-direction: column;
@@ -31,14 +31,14 @@
 
 .food .food__col1 .food__col1__sec2__box1 {
     width: 100%;
-    height: 110px;
+    height: 90px;
     
     
 }
 
 .food .food__col1 .food__col1__sec2__box2 {
     width: 100%;
-    height: 110px;
+    height: 90px;
     
     color: #000;
     font-size: 30px;
@@ -46,28 +46,72 @@
 
 .food .food__col1 .food__col1__sec3 {
     width: 5%;
-    height: 220px;
+    height: 180px;
     
     
 }
 
 .food .food__col2 {
     width: 100%;
-    height: px;
+    height: 700px;
     
+    display: flex;
+    flex-direction: row;
+}
+
+.food .food__col2 .food__col2__sec1 {
+    width: 5%;
+    height: 700px;
     
+    background-color: limegreen;
+}
+
+.food .food__col2 .food__col2__sec2 {
+    width: 90%;
+    height: 700px;
+    
+    background-color: magenta;
+}
+
+.food .food__col2 .food__col2__sec3 {
+    width: 5%;
+    height: 700px;
+    
+    background-color: mediumpurple;
 }
 
 .food .food__col3 {
     width: 100%;
-    height: px;
+    height: 700px;
     
-    
+    background-color: navajowhite;
 }
 
 .food .food__col4 {
     width: 100%;
-    height: px;
+    height: 420px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.food .food__col4 .food__col4__sec1 {
+    width: 100%;
+    height: 420px;
+    
+   
+}
+
+.food .food__col4 .food__col4__sec2 {
+    width: 100%;
+    height: 420px;
+    
+   
+}
+
+.food .food__col4 .food__col4__sec3 {
+    width: 100%;
+    height: 420px;
     
    
 }
