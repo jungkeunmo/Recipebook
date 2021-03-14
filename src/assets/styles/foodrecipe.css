@@ -89,39 +89,60 @@
     flex-direction: row;
 }
 
+.cm4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cm4 div {
+    margin: 10px;
+    border-radius: 8px;
+}
+
 .food .food__col2 .food__col2__sec2__box2__w1 {
     width: 20%;
     height: 300px;
-    
-    background-color: seagreen;
+    background-image: url("https://img.sbs.co.kr/newsnet/etv/upload/2021/01/08/30000662538_1280.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 
 .food .food__col2 .food__col2__sec2__box2__w2 {
     width: 20%;
     height: 300px;
     
-    background-color: khaki;
+    background-image: url("https://lh3.googleusercontent.com/proxy/O1OXAH3y2eduEWvAlW4TbewOohV74-dimwij25z4FBsFNeyawUc1dFH33EMgwugebA7DTG6fW2TicsLqRBtOXjh2TxTsFTcnJCPId4NIwb_8DVbB80JRgfI83eUkqGL-");
+    background-size: cover;
+    background-position: center center;
 }
 
 .food .food__col2 .food__col2__sec2__box2__w3 {
     width: 20%;
     height: 300px;
     
-    background-color: papayawhip;
+    background-image: url("https://newsimg.hankookilbo.com/cms/articlerelease/2021/02/09/ea90a7f3-d253-48e3-95d1-ceb805a27cd0.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 
 .food .food__col2 .food__col2__sec2__box2__w4 {
     width: 20%;
     height: 300px;
     
-    background-color: pink;
+    background-image: url("https://img.insight.co.kr/static/2019/10/10/700/2yk6hv66jl7938aa7y21.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 
 .food .food__col2 .food__col2__sec2__box2__w5 {
     width: 20%;
     height: 300px;
     
-    background-color: indianred;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScKJPH8meWP6z6bFxY0XJmDGrkOy3Gt9d7VQ&usqp=CAU");
+    background-size: cover;
+    background-position: center center;
 }
 
 .food .food__col2 .food__col2__sec2__box3 {
@@ -175,6 +196,19 @@
     display: flex;
     flex-direction: row;
 }
+
+.cm5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cm5 div {
+    margin: 10px;
+    border-radius: 8px;
+}
+
 .food .food__col3 .food__col3__sec2__box2__r1 {
     width: 20%;
     height: 300px;
