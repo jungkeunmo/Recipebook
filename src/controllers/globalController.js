@@ -14,8 +14,8 @@ const foodrecipeController = async (req, res) => {
   res.render("screens/foodrecipe");
 };
 
-const forgotpasswordController = async (req, res) => {
-  res.render("screens/forgotPassword");
+const forgotController = async (req, res) => {
+  res.render("screens/forgot");
 };
 
 const signUpController = async (req, res) => {
@@ -25,7 +25,7 @@ const globalController = {
   homeController,
   loginController,
   foodrecipeController,
-  forgotpasswordController,
+  forgotController,
   signUpController,
 };
 
