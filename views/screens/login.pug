@@ -1,4 +1,22 @@
 extends ../layouts/main.pug
 
 block content
-    h1 LOGIN
+    .app1
+        h1 LOGIN DESION
+    .app2
+        
+        form(action="")
+            .int-area   
+                .label(for="id") USER NAME
+                    input(type="text" name="id" id="id" autocompelete="off" required)
+            
+
+            .int-area
+                .label(for="pw") PASS WORD
+                    input(type="text" name="pw" id="pw" autocompelete="off" required)
+            
+            .but-area
+                button(type="submt") LOGIN
+    
+        .caption
+            a(href="") Forgot Password?
