@@ -1,5 +1,4 @@
 import dotenv from "dotenv";
-import { render } from "pug";
 dotenv.config();
 
 const homeController = (req, res) => {
@@ -21,12 +20,18 @@ const forgotController = async (req, res) => {
 const signUpController = async (req, res) => {
   res.render("screens/signUP");
 };
+
+const helpController = async (req, res) => {
+  res.render("screens/help");
+};
+
 const globalController = {
   homeController,
   loginController,
   foodrecipeController,
   forgotController,
   signUpController,
+  helpController,
 };
 
 export default globalController;

@@ -92,3 +92,15 @@
   cursor: pointer;
   color: rgb(85, 85, 46);
 }
+
+.footer__col2 a {
+  margin: 0px 10px;
+  color: #000;
+  font-size: 15px;
+  text-decoration: underline #000;
+}
+
+.footer__col2 a:hover {
+  cursor: pointer;
+  color: rgb(85, 85, 46);
+}
