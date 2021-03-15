@@ -22,23 +22,72 @@
 }
 
 .help .help__col2 .help__col2__sec1 {
-    width: 6%;
+    width: 5%;
     height: 1200px;
 
     background-color: lightcoral;
 }
 
 .help .help__col2 .help__col2__sec2 {
-    width: 88%;
+    width: 90%;
     height: 1200px;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+.help .help__col2 .help__col2__sec2__box1 {
+    width: 100%;
+    height: 95px;
+
+    background-color: khaki;
+}
+
+.help .help__col2 .help__col2__sec2__box2 {
+    width: 100%;
+    height: px;
+
+    background-color: lightgreen;
+}
+
+.help .help__col2 .help__col2__sec2__box3 {
+    width: 100%;
+    height: px;
+
+    background-color: sandybrown;
+}
+
+.help .help__col2 .help__col2__sec2__box4 {
+    width: 100%;
+    height: px;
+
+    background-color: slateblue;
+}
+
+.help .help__col2 .help__col2__sec2__box5 {
+    width: 100%;
+    height: px;
+
+    background-color: sienna;
+}
+
+.help .help__col2 .help__col2__sec2__box6 {
+    width: 100%;
+    height: px;
+
+    background-color: darkmagenta;
 }
 
 .help .help__col2 .help__col2__sec3 {
-    width: 6%;
+    width: 5%;
     height: 1200px;
 
     background-color: lightgreen;
 }
+
+.help__col2__sec2 p {
+    color: #000;
+    font-size: 32px;
+    padding: 30px;
+    font-weight: 700;
+  }
