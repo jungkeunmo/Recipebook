@@ -1,0 +1,44 @@
+.help {
+    width: 100%;
+    height: 1300px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.help .help__col1 {
+    width: 100%;
+    height: 100px;
+
+    background-color: lightblue;
+}
+
+.help .help__col2 {
+    width: 100%;
+    height: 1200px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.help .help__col2 .help__col2__sec1 {
+    width: 6%;
+    height: 1200px;
+
+    background-color: lightcoral;
+}
+
+.help .help__col2 .help__col2__sec2 {
+    width: 88%;
+    height: 1200px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.help .help__col2 .help__col2__sec3 {
+    width: 6%;
+    height: 1200px;
+
+    background-color: lightgreen;
+}
