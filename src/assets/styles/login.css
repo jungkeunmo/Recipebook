@@ -85,5 +85,7 @@ form {
 .caption a {
   font-size: 15px;
   color: #999;
-  margin: 0px 20px;
+  margin: 0px 30px;
+  justify-content: center;
+  align-items: center;
 }
