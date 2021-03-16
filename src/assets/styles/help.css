@@ -60,8 +60,6 @@
 .help .help__col2 .help__col2__sec2__box4 {
     width: 100%;
     height: 100px;
-
-    background-color: slateblue;
 }
 
 .help .help__col2 .help__col2__sec2__box5 {
@@ -107,6 +105,18 @@
     padding-left: 25px;
     font-weight: 100px;
     font-size: 16px;
+}
+
+.help__col2__sec2__box4 a {
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 3px 3px 3px #000;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 30px;
 }
 
 .help__col2__sec2__box5 p {
