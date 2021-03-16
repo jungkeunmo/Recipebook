@@ -1,6 +1,6 @@
 .home {
   width: 100%;
-  height: 2195px;
+  height: 2205px;
 
   display: flex;
   flex-direction: column;
@@ -254,7 +254,7 @@
 
 .home .home__col4 .home__col4__main {
   width: 100%;
-  height: 500px;
+  height: 510px;
 
   display: flex;
   flex-direction: column;
@@ -267,7 +267,7 @@
 
 .home .home__col4 .home__col4__main__box2 {
   width: 100%;
-  height: 300px;
+  height: 310px;
 }
 
 .cm3 {
@@ -335,12 +335,6 @@
   height: 100px;
 }
 
-.home__col4__main a {
-  margin: 10px 10px;
-  color: palegreen;
-  font-size: 30px;
-}
-
 .home__col2__main__box1 p {
   margin-top: 52px;
   margin-left: 36px;
@@ -399,14 +393,14 @@
 .home__col3__main__box1 p {
   color: #ffffff;
   margin-top: 46px;
-  margin-left: 36px;
+  margin-left: 40px;
   font-size: 32px;
   font-weight: 400;
 }
 
 .home__col4__main__box1 p {
   margin-top: 46px;
-  margin-left: 36px;
+  margin-left: 40px;
   color: #000;
   font-size: 32px;
   font-weight: 500;
