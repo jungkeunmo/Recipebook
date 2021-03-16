@@ -254,7 +254,20 @@
 
 .home .home__col4 .home__col4__main {
   width: 100%;
-  height: 100%;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.home .home__col4 .home__col4__main__box1 {
+  width: 100%;
+  height: 100px;
+}
+
+.home .home__col4 .home__col4__main__box2 {
+  width: 100%;
+  height: 300px;
 }
 
 .cm3 {
@@ -269,7 +282,7 @@
   border-radius: 8px;
 }
 
-.cm3 .home__col4__main__box1 {
+.cm3 .home__col4__main__box2__sec1 {
   width: 400px;
   height: 300px;
   background-image: url("https://thumb.zumst.com/530x0/https://static.news.zumst.com/images/56/2019/04/06/1b25f59ccae1492daeb16eaa4fe34b6c.jpg");
@@ -279,7 +292,7 @@
   border-radius: 8px;
 }
 
-.cm3 .home__col4__main__box2 {
+.cm3 .home__col4__main__box2__sec2 {
   width: 400px;
   height: 300px;
   background-image: url("https://i1.wp.com/wooriclass.co.kr/wp-content/uploads/2018/09/12%EC%A7%84%EC%A7%9C%EB%B7%94.jpg?resize=700%2C875");
@@ -289,7 +302,7 @@
   border-radius: 8px;
 }
 
-.cm3 .home__col4__main__box3 {
+.cm3 .home__col4__main__box2__sec3 {
   width: 400px;
   height: 300px;
   background-image: url("https://img.sbs.co.kr/newsnet/etv/upload/2020/11/02/30000655018_1280.jpg");
@@ -297,6 +310,29 @@
   background-position: center center;
   margin: 10px;
   border-radius: 8px;
+}
+
+.home .home__col4 .home__col4__main__box3 {
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.home .home__col4 .home__col4__main__box3__sec1 {
+  width: 33%;
+  height: 100px;
+}
+
+.home .home__col4 .home__col4__main__box3__sec2 {
+  width: 33%;
+  height: 100px;
+}
+
+.home .home__col4 .home__col4__main__box3__sec3 {
+  width: 33%;
+  height: 100px;
 }
 
 .home__col4__main a {
@@ -366,4 +402,29 @@
   margin-left: 36px;
   font-size: 32px;
   font-weight: 400;
+}
+
+.home__col4__main__box1 p {
+  margin-top: 46px;
+  margin-left: 36px;
+  color: #000;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.home__col4__main__box3__sec1 a {
+  color: #000;
+  font-size: 22px;
+  margin-left: 44px;
+}
+
+.home__col4__main__box3__sec2 a {
+  color: #000;
+  font-size: 22px;
+  margin-left: 27px;
+}
+
+.home__col4__main__box3__sec3 a {
+  color: #000;
+  font-size: 22px;
 }

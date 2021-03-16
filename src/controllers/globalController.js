@@ -22,7 +22,7 @@ const signUpController = async (req, res) => {
 };
 
 const helpController = async (req, res) => {
-  res.render("screens/help");
+  res.render("footers/help");
 };
 
 const globalController = {
