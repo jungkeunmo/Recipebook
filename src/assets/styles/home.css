@@ -1,6 +1,6 @@
 .home {
   width: 100%;
-  height: 2355px;
+  height: 2255px;
 
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@
 
 .home .home__col2 {
   width: 100%;
-  height: 600px;
+  height: 500px;
 
   display: flex;
   flex-direction: row;
@@ -60,19 +60,39 @@
 
 .home .home__col2 .home__col2__main__box1 {
   width: 100%;
-  height: 195px;
-  background-color: lawngreen;
+  height: 105px;
 }
 
 .home .home__col2 .home__col2__main__box2 {
   width: 100%;
-  height: 305px;
+  height: 315px;
 }
 
 .home .home__col2 .home__col2__main__box3 {
   width: 100%;
-  height: 50px;
-  background-color: lightblue;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+.home .home__col2 .home__col2__main__box3__sec1 {
+  width: 25%;
+  height: 90px; 
+}
+
+.home .home__col2 .home__col2__main__box3__sec2 {
+  width: 25%;
+  height: 90px;
+}
+
+.home .home__col2 .home__col2__main__box3__sec3 {
+  width: 25%;
+  height: 90px;
+}
+
+.home .home__col2 .home__col2__main__box3__sec4 {
+  width: 25%;
+  height: 90px;
 }
 
 .cm4 {
@@ -90,7 +110,7 @@
 
 .cm4 .home__col2__main__box2__sec1 {
   width: 300px;
-  height: 305px;
+  height: 315px;
   background-image: url("https://i.pinimg.com/originals/99/41/83/9941835b541f9909bc469f6cea74368c.jpg");
   background-size: cover;
   background-position: center center;
@@ -98,7 +118,7 @@
 
 .cm4 .home__col2__main__box2__sec2 {
   width: 300px;
-  height: 305px;
+  height: 315px;
   background-image: url("https://lh3.googleusercontent.com/proxy/jziM-B93vch79vo64JhYc78Mk1PLuZnWJKNUr9oiyjtLxVdXcaPSQ-VvnScfsLm1vK-RuTtQtWKeLeo9YiLRWMycsCtPuuN2m1tSACzrMAx4Syqt");
   background-size: cover;
   background-position: center center;
@@ -106,7 +126,7 @@
 
 .cm4 .home__col2__main__box2__sec3 {
   width: 300px;
-  height: 305px;
+  height: 315px;
   background-image: url("https://i.pinimg.com/originals/97/e8/46/97e846bbe4e6f255d2e04aa5449d5a83.jpg");
   background-size: cover;
   background-position: center center;
@@ -114,7 +134,7 @@
 
 .cm4 .home__col2__main__box2__sec4 {
   width: 300px;
-  height: 305px;
+  height: 315px;
   background-image: url("http://img.segye.com/content/image/2019/06/20/20190620504765.jpg");
   background-size: cover;
   background-position: center center;
@@ -260,4 +280,39 @@
   margin: 10px 10px;
   color: palegreen;
   font-size: 30px;
+}
+
+.home__col2__main__box1 p {
+  margin-top: 50px;
+  margin-left: 36px;
+  color: #000;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.home__col2__main__box3__sec1 a {
+  margin-left: 36px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.home__col2__main__box3__sec2 a {
+  margin-left: 20px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.home__col2__main__box3__sec3 a {
+  margin-left: 10px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.home__col2__main__box3__sec4 a {
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
 }
