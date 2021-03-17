@@ -62,6 +62,16 @@
     height: 100px;
 }
 
+.help .help__col2 .help__col2__sec2__box4__sec1 {
+    width: 100%;
+    height: 100px;
+}
+
+.help .help__col2 .help__col2__sec2__box4__sec2 {
+    width: 100%;
+    height: 100px;
+}
+
 .help .help__col2 .help__col2__sec2__box5 {
     width: 100%;
     height: 60px;
@@ -107,7 +117,19 @@
     font-size: 16px;
 }
 
-.help__col2__sec2__box4 a {
+.help__col2__sec2__box4__sec1 a {
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 3px 3px 3px #000;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.help__col2__sec2__box4__sec2 a {
     border-radius: 4px;
     background-color: #000;
     color: #fff;

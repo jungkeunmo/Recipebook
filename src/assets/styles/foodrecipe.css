@@ -322,12 +322,30 @@
   height: 120px;
 }
 
-.food__col2__sec2 p {
+.food__col2__sec2__box1  p {
   color: rgb(167, 223, 39);
   font-size: 20px;
+  margin-top: 65px;
+  margin-left: 10px;
 }
 
-.food__col3__sec2 p {
+.food__col2__sec2__box3 p {
+  color: rgb(167, 223, 39);
+  font-size: 20px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.food__col3__sec2__box1  p {
   color: #ffffff;
   font-size: 20px;
+  margin-top: 65px;
+  margin-left: 10px;
+}
+
+.food__col3__sec2__box3  p {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-left: 10px;
 }

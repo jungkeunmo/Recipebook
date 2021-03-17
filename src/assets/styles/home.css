@@ -112,7 +112,7 @@
 .cm4 .home__col2__main__box2__sec2 {
   width: 300px;
   height: 305px;
-  background-image: url("https://i.pinimg.com/474x/c2/c9/8e/c2c98e6f76a82500996efa038ee23d47.jpg");
+  background-image: url("http://www.polinews.co.kr/data/photos/20200310/art_15832117787573_711ff8.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -365,7 +365,7 @@
 
 .home__col3__main__box3__sec1 a {
   color: #ffffff;
-  margin-left: 38px;
+  margin-left: 45px;
   font-size: 18px;
   font-weight: 400;
 }
@@ -414,4 +414,5 @@
 .home__col4__main__box3__sec3 a {
   color: #000;
   font-size: 22px;
+  margin-left: 10px;
 }
