@@ -1,152 +1,150 @@
 .help {
-    width: 100%;
-    height: 1300px;
+  width: 100%;
+  height: 1300px;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .help .help__col1 {
-    width: 100%;
-    height: 100px;
+  width: 100%;
+  height: 100px;
 
-    background-color: lightblue;
+  background-color: lightblue;
 }
 
 .help .help__col2 {
-    width: 100%;
-    height: 1200px;
+  width: 100%;
+  height: 1200px;
 
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .help .help__col2 .help__col2__sec1 {
-    width: 5%;
-    height: 1200px;
+  width: 5%;
+  height: 1200px;
 
-    background-color: lightcoral;
+  background-color: lightcoral;
 }
 
 .help .help__col2 .help__col2__sec2 {
-    width: 90%;
-    height: 1200px;
+  width: 90%;
+  height: 1200px;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .help .help__col2 .help__col2__sec2__box1 {
-    width: 100%;
-    height: 95px;
+  width: 100%;
+  height: 95px;
 
-    background-color: khaki;
+  background-color: khaki;
 }
 
 .help .help__col2 .help__col2__sec2__box2 {
-    width: 100%;
-    height: 58px;
+  width: 100%;
+  height: 58px;
 
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
 
 .help .help__col2 .help__col2__sec2__box3 {
-    width: 100%;
-    height: 30px;
+  width: 100%;
+  height: 30px;
 
-    background-color: sandybrown;
+  background-color: sandybrown;
 }
 
 .help .help__col2 .help__col2__sec2__box4 {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
 }
 
 .help .help__col2 .help__col2__sec2__box4__sec1 {
-    width: 100%;
-    height: 100px;
+  width: 100%;
+  height: 100px;
 }
 
 .help .help__col2 .help__col2__sec2__box4__sec2 {
-    width: 100%;
-    height: 100px;
+  width: 100%;
+  height: 100px;
 }
 
 .help .help__col2 .help__col2__sec2__box5 {
-    width: 100%;
-    height: 60px;
+  width: 100%;
+  height: 60px;
 
-    background-color: sienna;
+  background-color: sienna;
 }
 
 .help .help__col2 .help__col2__sec2__box6 {
-    width: 100%;
-    height: px;
+  width: 100%;
+  height: 857px;
 
-    background-color: darkmagenta;
+  background-color: darkmagenta;
 }
 
 .help .help__col2 .help__col2__sec3 {
-    width: 5%;
-    height: 1200px;
+  width: 5%;
+  height: 1200px;
 
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
 
 .help__col2__sec2__box1 p {
-    color: #000;
-    font-size: 32px;
-    margin-left: 25px;
-    margin-top: 30px;
-    font-weight: 700;
+  color: #000;
+  font-size: 32px;
+  margin-left: 25px;
+  margin-top: 30px;
+  font-weight: 700;
 }
 
 .help__col2__sec2__box2 p {
-    color: #000;
-    font-size: 27px;
-    margin-top: 25px;
-    margin-left: 25px;
-    font-weight: 450px;
+  color: #000;
+  font-size: 27px;
+  margin-top: 25px;
+  margin-left: 25px;
+  font-weight: 450px;
 }
 
 .help__col2__sec2__box3 p {
-    color: #2d3436;
-    margin-top: 4px;
-    padding-left: 25px;
-    font-weight: 100px;
-    font-size: 16px;
+  color: #2d3436;
+  margin-top: 4px;
+  padding-left: 25px;
+  font-weight: 100px;
+  font-size: 16px;
 }
 
 .help__col2__sec2__box4__sec1 a {
-    border-radius: 5px;
-    background-color: #fff;
-    color: #000;
-    font-size: 25px;
-    box-shadow: 1px 1px 1px rgb(32, 32, 32);
-    padding:5px;
-    margin: 0px 30px;
-    cursor: pointer;
-
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  font-size: 25px;
+  box-shadow: 1px 1px 1px rgb(32, 32, 32);
+  padding: 5px;
+  margin: 0px 30px;
+  cursor: pointer;
 }
 
 .help__col2__sec2__box4__sec2 a {
-    border-radius: 5px;
-    background-color: #fff;
-    color: #000;
-    font-size: 25px;
-    box-shadow: 1px 1px 1px rgb(32, 32, 32);
-    padding:5px;
-    margin: 0px 30px;
-    cursor: pointer;
-    
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  font-size: 25px;
+  box-shadow: 1px 1px 1px rgb(32, 32, 32);
+  padding: 5px;
+  margin: 0px 30px;
+  cursor: pointer;
 }
 
 .help__col2__sec2__box5 p {
-    color: #2d3436;
-    margin-top: 4px;
-    padding-left: 25px;
-    font-weight: 100px;
-    font-size: 23px;
+  color: #2d3436;
+  margin-top: 4px;
+  padding-left: 25px;
+  font-weight: 100px;
+  font-size: 23px;
 }
