@@ -25,6 +25,10 @@ const helpController = async (req, res) => {
   res.render("footers/help");
 };
 
+const safetyController = async (req, res) => {
+  res.render("footers/safety");
+};
+
 const globalController = {
   homeController,
   loginController,
@@ -32,6 +36,7 @@ const globalController = {
   forgotController,
   signUpController,
   helpController,
+  safetyController,
 };
 
 export default globalController;

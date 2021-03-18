@@ -9,5 +9,6 @@ globalRouter.get("/foodrecipe", globalController.foodrecipeController);
 globalRouter.get("/forgot", globalController.forgotController);
 globalRouter.get("/signUp", globalController.signUpController);
 globalRouter.get("/help", globalController.helpController);
+globalRouter.get("/safety", globalController.safetyController);
 
 export default globalRouter;
