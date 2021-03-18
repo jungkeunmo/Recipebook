@@ -9,8 +9,6 @@
 .help .help__col1 {
   width: 100%;
   height: 100px;
-
-  background-color: lightblue;
 }
 
 .help .help__col2 {
@@ -24,8 +22,6 @@
 .help .help__col2 .help__col2__sec1 {
   width: 5%;
   height: 1200px;
-
-  background-color: lightcoral;
 }
 
 .help .help__col2 .help__col2__sec2 {
@@ -39,22 +35,16 @@
 .help .help__col2 .help__col2__sec2__box1 {
   width: 100%;
   height: 95px;
-
-  background-color: khaki;
 }
 
 .help .help__col2 .help__col2__sec2__box2 {
   width: 100%;
   height: 58px;
-
-  background-color: lightgreen;
 }
 
 .help .help__col2 .help__col2__sec2__box3 {
   width: 100%;
   height: 30px;
-
-  background-color: sandybrown;
 }
 
 .help .help__col2 .help__col2__sec2__box4 {
@@ -77,22 +67,17 @@
 .help .help__col2 .help__col2__sec2__box5 {
   width: 100%;
   height: 60px;
-
-  background-color: sienna;
 }
 
 .help .help__col2 .help__col2__sec2__box6 {
   width: 100%;
   height: 857px;
-
-  background-color: darkmagenta;
+  background-color: blue;
 }
 
 .help .help__col2 .help__col2__sec3 {
   width: 5%;
   height: 1200px;
-
-  background-color: lightgreen;
 }
 
 .help__col2__sec2__box1 p {
@@ -119,30 +104,27 @@
   font-size: 16px;
 }
 
-.help__col2__sec2__box4__sec1 a {
+.help__col2__sec2__box4__add1 button {
   border-radius: 5px;
   background-color: #fff;
   color: #000;
-  font-size: 25px;
-  box-shadow: 1px 1px 1px rgb(32, 32, 32);
+  font-size: 20px;
+  box-shadow: 1px 1px 1px #000;
   padding: 5px;
-  margin: 0px 30px;
-  cursor: pointer;
+  margin: 8px 20px;
 }
 
-.help__col2__sec2__box4__sec2 a {
+.help__col2__sec2__box4__add2 button {
   border-radius: 5px;
-  background-color: #fff;
-  color: #000;
-  font-size: 25px;
-  box-shadow: 1px 1px 1px rgb(32, 32, 32);
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
   padding: 5px;
-  margin: 0px 30px;
-  cursor: pointer;
+  margin: 8px 0px;
 }
 
 .help__col2__sec2__box5 p {
-  color: #2d3436;
+  color: #484848;
   margin-top: 4px;
   padding-left: 25px;
   font-weight: 100px;
