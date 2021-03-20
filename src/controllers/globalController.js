@@ -29,6 +29,10 @@ const safetyController = async (req, res) => {
   res.render("footers/safety");
 };
 
+const recipeWrittenController = (req, res) => {
+  res.render("screens/recipeWritten");
+};
+
 const globalController = {
   homeController,
   loginController,
@@ -37,6 +41,7 @@ const globalController = {
   signUpController,
   helpController,
   safetyController,
+  recipeWrittenController,
 };
 
 export default globalController;
