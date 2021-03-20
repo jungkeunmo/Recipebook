@@ -12,11 +12,15 @@
   padding: 160px 0px 0px;
   font-size: 16px;
   color: #008489;
+  font-weight: 700;
 }
 
 .safety .safety__col2 {
   width: 100%;
-  height: px;
+  padding: 20px 0px 60px;
+  font-size: 44px;
+  font-weight: 700;
+  color: #484848;
 }
 
 .safety .safety__col3 {
