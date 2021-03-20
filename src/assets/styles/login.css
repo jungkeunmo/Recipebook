@@ -68,7 +68,7 @@ form {
 .but-area2 button {
   width: 100%;
   height: 50px;
-  background: rgb(119, 119, 231);
+  background: #1d054b;
   color: #fff;
   font-size: 20px;
   border: none;
@@ -77,15 +77,10 @@ form {
   cursor: pointer;
 }
 
-.caption {
-  margin-top: 20px;
-  text-align: center;
-}
-
 .caption a {
   font-size: 15px;
   color: #999;
-  margin: 0px 30px;
+
   justify-content: center;
   align-items: center;
 }
