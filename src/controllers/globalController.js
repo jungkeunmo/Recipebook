@@ -34,7 +34,7 @@ const recipeWrittenController = (req, res) => {
 };
 
 const questionController = (req, res) => {
-  res.render("screens/question");
+  res.render("footers/question");
 };
 
 const globalController = {

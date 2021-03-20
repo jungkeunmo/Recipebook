@@ -1,0 +1,22 @@
+.question {
+  width: 100%;
+  height: 1300px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.question .question__col1 {
+  width: 100%;
+  height: 1300px;
+}
+
+.question .question__col2 {
+  width: 100%;
+  height: 1300px;
+}
+
+.question .question__col3 {
+  width: 100%;
+  height: 1300px;
+}

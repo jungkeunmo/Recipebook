@@ -17,10 +17,11 @@
 
 .safety .safety__col2 {
   width: 100%;
-  padding: 20px 0px 60px;
+  padding: 28px 0px 60px;
   font-size: 44px;
   font-weight: 700;
   color: #484848;
+  border-bottom: 1px solid #bcbcbc;
 }
 
 .safety .safety__col3 {
