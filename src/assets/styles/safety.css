@@ -128,6 +128,8 @@
   height: 130px;
   background-image: url("https://a0.muscache.com/airbnb/static/packages/secure-payment.52a19e98.svg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .safety .safety__col7__sec2__img1 {
@@ -135,6 +137,8 @@
   height: 130px;
   background-image: url("https://a0.muscache.com/airbnb/static/packages/account_protection.c67852d0.svg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .safety .safety__col7__sec3__img1 {
@@ -142,6 +146,8 @@
   height: 130px;
   background-image: url("https://a0.muscache.com/airbnb/static/packages/safety.ace320e7.svg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .safety__col7__sec1__txt1,
