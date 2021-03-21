@@ -10,8 +10,8 @@
 .header .header__col1 {
   width: 20%;
   height: 60px;
-
-  background-color: #000;
+  padding-top: 10px;
+  background-color: #111;
 }
 
 .a1,
@@ -28,7 +28,7 @@
 
   align-items: center;
   justify-content: center;
-  background-color: #000;
+  background-color: #111;
 }
 input {
   width: 500px;
@@ -39,7 +39,7 @@ input {
   outline: none;
   background-color: none;
   border: none;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #111;
 }
 
 .header .header__col2 .button {
@@ -49,7 +49,7 @@ input {
 .header .header__col3 {
   width: 10%;
   height: 100%;
-  background-color: #000;
+  background-color: #111;
 }
 
 .header .header__col3 .user-circle {
@@ -64,7 +64,7 @@ input {
   width: 20%;
   height: 60px;
 
-  background-color: #000;
+  background-color: #111;
 }
 
 .header__col1__ul__list a {
