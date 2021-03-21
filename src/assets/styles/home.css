@@ -1,29 +1,32 @@
 .home {
   width: 100%;
-  height: 100vh;
-  background-color: seagreen;
 }
 
 .home .home__col1 {
   width: 100%;
   height: 300px;
-  background-color: sienna;
+  border-bottom: 1px solid #bcbcbc;
 }
 
 .home .home__col2 {
   width: 100%;
   height: 100%;
-  background-color: skyblue;
 
   display: flex;
   flex-direction: row;
+  border-bottom: 1px solid #bcbcbc;
 }
 
-.home__col2__A {
+.home__col2__A,
+.home__col2__B,
+.home__col2__C {
   width: 33%;
   height: 350px;
-  background-color: slateblue;
+
   margin: 50px 50px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 2px 1px rgb(168, 166, 166);
 }
 
 .home__col2__A__img {
@@ -35,7 +38,7 @@
 
 a {
   font-size: 20px;
-  color: #fff;
+  color: #000;
   cursor: pointer;
 }
 
@@ -49,26 +52,6 @@ a {
 .home__col2__C__img {
   width: 100%;
   height: 85%;
-  background-color: rgb(140, 21, 252);
-}
-
-.home__col2__B {
-  width: 33%;
-  height: 350px;
-  background-color: rgb(39, 17, 184);
-  margin: 50px 50px;
-}
-
-.home__col2__C {
-  width: 33%;
-  height: 350px;
-  background-color: rgb(16, 8, 68);
-  margin: 50px 50px;
-}
-
-.home__col2__C__img {
-  width: 100%;
-  height: 85%;
   background-image: url("https://i.pinimg.com/474x/94/0b/55/940b55f6bb5b85d0c7f73e74c028f92f.jpg");
   background-size: cover;
 }
@@ -76,74 +59,107 @@ a {
 .home__col3 {
   width: 100%;
   height: 100%;
-  background-color: slategray;
+  border-bottom: 1px solid #bcbcbc;
 }
 
 .home__col3__box1 {
   width: 100%;
-  height: 50%;
-  background-color: aquamarine;
+  height: 400px;
 
   display: flex;
   flex-direction: row;
+  border-bottom: 1px solid #bcbcbc;
 }
 
-.home__col3__box1__A {
+.home__col3__box1__A,
+.home__col3__box1__B,
+.home__col3__box1__C,
+.home__col3__box1__D {
   width: 33%;
   height: 330px;
-  background-color: black;
+
   margin: 25px 25px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 2px 1px rgb(168, 166, 166);
 }
 
-.home__col3__box1__B {
-  width: 33%;
-  height: 330px;
-  background-color: rgb(143, 1, 1);
-  margin: 25px 25px;
+.home__col3__box1__A__img {
+  width: 100%;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/4e/5e/6f/4e5e6f11c50165cd020b41f47198713e.jpg");
+  background-size: cover;
 }
 
-.home__col3__box1__C {
-  width: 33%;
-  height: 330px;
-  background-color: rgb(131, 45, 45);
-  margin: 25px 25px;
+.home__col3__box1__B__img {
+  width: 100%;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/4b/d8/37/4bd8376269e632a62876fc37ed91ba55.jpg");
+  background-size: cover;
+}
+
+.home__col3__box1__C__img {
+  width: 100%;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/db/1f/e5/db1fe56e5ff1d5e66369cc2ae85c1b13.jpg");
+  background-size: cover;
+}
+
+.home__col3__box1__D__img {
+  width: 100%;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/2b/0b/7d/2b0b7d57beb3779d07bb4d3b8e63dcb2.jpg");
+  background-size: cover;
 }
 
 .home__col3__box2 {
   width: 100%;
-  height: 50%;
-  background-color: rgb(15, 31, 25);
+  height: 400px;
 
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  border-bottom: 1px solid #bcbcbc;
 }
 
-.home__col3__box2__E {
-  width: 25%;
-  height: 330px;
-  background-color: blueviolet;
-  margin: 0px 30px;
-}
-
-.home__col3__box2__F {
-  width: 25%;
-  height: 330px;
-  background-color: rgb(56, 32, 78);
-  margin: 0px 30px;
-}
-
-.home__col3__box2__G {
-  width: 25%;
-  height: 330px;
-  background-color: rgb(77, 22, 128);
-  margin: 0px 30px;
-}
-
+.home__col3__box2__E,
+.home__col3__box2__F,
+.home__col3__box2__G,
 .home__col3__box2__H {
   width: 25%;
   height: 330px;
-  background-color: rgb(169, 122, 212);
+
   margin: 0px 30px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 2px 1px rgb(168, 166, 166);
+}
+
+.home__col3__box2__E__img {
+  width: 100%;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/a8/af/1d/a8af1d6549bd2984683f016106362704.jpg");
+  background-size: cover;
+}
+
+.home__col3__box2__F__img {
+  width: 100%;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/67/a2/fe/67a2fe55d9e70d0131e33617f4138eb8.jpg");
+  background-size: cover;
+}
+
+.home__col3__box2__G__img {
+  width: 100%;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/eb/85/54/eb8554ef90647231292c902341ff41e8.jpg");
+  background-size: cover;
+}
+
+.home__col3__box2__H__img {
+  width: 100%;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/20/4c/6a/204c6a4701d6480bd236457dca6dd8a9.jpg");
+  background-size: cover;
 }
