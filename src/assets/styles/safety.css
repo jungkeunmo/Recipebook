@@ -50,7 +50,7 @@
 
 .safety .safety__col6 {
   width: 100%;
-  height: 426px;
+  height: 425px;
 
   display: flex;
   flex-direction: row;
@@ -58,7 +58,15 @@
   border-bottom: 1px solid #bcbcbc;
 }
 
-.safety .safety__col6__sec1 {
+.safety .safety__col6 .safety__col6__sec1 {
+  width: 33%;
+  height: 345px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.safety .safety__col6__sec1__img1 {
   width: 125px;
   height: 125px;
   background-image: url("https://a0.muscache.com/airbnb/static/packages/risk-scoring.5d7f7631.svg");
