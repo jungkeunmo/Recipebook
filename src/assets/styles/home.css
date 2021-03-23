@@ -4,7 +4,7 @@
   padding-top: 60px;
 }
 
-.home .home__col1 {
+.home__col1 {
   width: 100%;
   width: 100%;
   height: 575px;
@@ -95,60 +95,103 @@
 .home__col2__sec2__box4 {
   width: 25%;
   height: 80px;
+  display: flex;
+  flex-direction: row;
 }
 
 .home__col2__sec1__box1__img {
   width: 64px;
   height: 64px;
-  background-color: aqua;
+  background-image: url("http://res.heraldm.com/phpwas/restmb_idxmake.php?idx=507&simg=/content/image/2019/09/27/20190927000594_0.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   border-radius: 10px;
 }
 
 .home__col2__sec1__box2__img {
   width: 64px;
   height: 64px;
-  background-color: lavender;
+  background-image: url("https://i.pinimg.com/originals/b7/b4/df/b7b4dff40b9bade33ae4539d6ed1e686.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   border-radius: 10px;
 }
 
 .home__col2__sec1__box3__img {
   width: 64px;
   height: 64px;
-  background-color: palegoldenrod;
+  background-image: url("http://res.heraldm.com/phpwas/restmb_idxmake.php?idx=507&simg=/content/image/2017/05/19/20170519000779_0.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   border-radius: 10px;
 }
 
 .home__col2__sec1__box4__img {
   width: 64px;
   height: 64px;
-  background-color: olivedrab;
+  background-image: url("https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/03/a0003649/img/basic/a0003649_main.jpg?20191025154211&q=80&rw=750&rh=536");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   border-radius: 10px;
 }
 
 .home__col2__sec2__box1__img {
   width: 64px;
   height: 64px;
-  background-color: aqua;
+  background-image: url("https://m.tasty9.com/web/product/big/202009/e5edcf29f4fd2266c8e203f5219cfa4b.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   border-radius: 10px;
 }
 
 .home__col2__sec2__box2__img {
   width: 64px;
   height: 64px;
-  background-color: aqua;
+  background-image: url("https://static.news.zumst.com/images/37/2015/03/09/d08185db323542219333373fb1e3c96e.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   border-radius: 10px;
 }
 
 .home__col2__sec2__box3__img {
   width: 64px;
   height: 64px;
-  background-color: aqua;
+  background-image: url("https://cdn.crowdpic.net/list-thumb/thumb_l_3D42BAB24D6309FBC2516B290C1A2E89.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   border-radius: 10px;
 }
 
 .home__col2__sec2__box4__img {
   width: 64px;
   height: 64px;
-  background-color: aqua;
+  background-image: url("http://th2.tmon.kr/thumbs/image/ee3/bc0/b1f/f1836ea58_700x700_95_FIT.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   border-radius: 10px;
+}
+
+.home__col2__sec1__box1__txt,
+.home__col2__sec1__box2__txt,
+.home__col2__sec1__box3__txt,
+.home__col2__sec1__box4__txt,
+.home__col2__sec2__box1__txt,
+.home__col2__sec2__box2__txt,
+.home__col2__sec2__box3__txt,
+.home__col2__sec2__box4__txt {
+  padding: 10px 0px 0px 10px;
+}
+
+a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #222222;
 }
