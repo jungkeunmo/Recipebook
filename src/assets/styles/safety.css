@@ -184,8 +184,9 @@
 }
 
 .safety .safety__col10__sec2 {
+  width: 100%;
 }
 
-p {
+.safety p {
   color: #484848;
 }
