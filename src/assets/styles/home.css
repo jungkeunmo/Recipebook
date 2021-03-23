@@ -187,11 +187,17 @@
 .home__col2__sec2__box2__txt,
 .home__col2__sec2__box3__txt,
 .home__col2__sec2__box4__txt {
-  padding: 10px 0px 0px 10px;
+  padding: 10px 0px 0px 15px;
 }
 
 a {
   font-size: 16px;
   font-weight: 500;
   color: #222222;
+}
+
+p {
+  font-size: 16px;
+  color: #222222;
+  padding: 10px 0px;
 }
