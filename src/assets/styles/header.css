@@ -10,8 +10,8 @@
 .header .header__col1 {
   width: 20%;
   height: 60px;
-  padding-top: 10px;
-  background-color: #111;
+
+  background-color: #000;
 }
 
 .a1,
@@ -28,18 +28,18 @@
 
   align-items: center;
   justify-content: center;
-  background-color: #111;
+  background-color: #000;
 }
 input {
-  width: 500px;
-  padding: 8px 10px;
+  width: 400px;
+  padding: 10px 10px;
   border-radius: 5px;
-  margin: 15px 76px;
+  margin: 10px 70px;
 
   outline: none;
   background-color: none;
   border: none;
-  border-bottom: 1px solid #111;
+  border-bottom: 1px solid #000;
 }
 
 .header .header__col2 .button {
@@ -49,7 +49,7 @@ input {
 .header .header__col3 {
   width: 10%;
   height: 100%;
-  background-color: #111;
+  background-color: #000;
 }
 
 .header .header__col3 .user-circle {
@@ -60,11 +60,11 @@ input {
   cursor: pointer;
 }
 
-.header .header__col4 {
+.header .header__col3 {
   width: 20%;
   height: 60px;
 
-  background-color: #111;
+  background-color: #000;
 }
 
 .header__col1__ul__list a {
@@ -73,8 +73,9 @@ input {
   font-size: 30px;
 }
 
-.header__col4__ul__list a {
-  margin: 10px 10px;
+.header__col3__ul__list a {
+  margin: 30px 10px;
   color: #ffeaa7;
   font-size: 17px;
+  padding-top: 10px;
 }
