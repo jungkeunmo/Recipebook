@@ -272,3 +272,13 @@
   background-position: center center;
   border-radius: 8px;
 }
+
+.home__col3__sec__box1__txt,
+.home__col3__sec__box2__txt,
+.home__col3__sec__box3__txt,
+.home__col3__sec__box4__txt {
+  padding: 8px 0px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #222222;
+}
