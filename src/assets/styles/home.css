@@ -42,7 +42,7 @@
 .home__col1__box__add2__txt3 {
   width: 80px;
   height: 30px;
-  color: #fff;
+  color: #ffffff;
   font-size: 17px;
   font-weight: 700;
   padding: 0px 10px;
@@ -62,7 +62,7 @@
 .home .home__col1__btn {
   font-size: 14px;
   margin: 22px 0px 0px;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 6px;
   padding: 10px 10px;
   font-weight: 500;
@@ -286,7 +286,7 @@
 .home__col4 {
   width: 100%;
   height: 620px;
-  background-color: #000000;
+  background-color: #222222;
   padding: 40px 80px;
 }
 
@@ -354,7 +354,7 @@
   padding: 8px 0px 0px;
   font-size: 18px;
   font-weight: 500;
-  color: #fff;
+  color: #ffffff;
 }
 
 .home__col4__sec__box1__txt2,
@@ -371,4 +371,65 @@
   width: 100%;
   height: 482px;
   padding: 40px 80px;
+}
+
+.home__col5__txt1 {
+  color: #222222;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 0px 0px 30px;
+}
+
+.home__col5__sec {
+  width: 100%;
+  height: 378px;
+  display: flex;
+  flex-direction: row;
+}
+
+.home__col5__sec__box1,
+.home__col5__sec__box2,
+.home__col5__sec__box3,
+.home__col5__sec__box4 {
+  width: 33.33333333333333333333333333333333333%;
+  height: 378px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home__col5__sec__box1__img {
+  width: 414px;
+  height: 276px;
+  background-image: url("https://images.unsplash.com/photo-1616547772232-76ca3319cf11?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4MXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 8px;
+}
+
+.home__col5__sec__box2__img {
+  width: 414px;
+  height: 276px;
+  background-image: url("https://images.unsplash.com/photo-1616594899382-32b764875c32?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1MXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 8px;
+}
+
+.home__col5__sec__box3__img {
+  width: 414px;
+  height: 276px;
+  background-image: url("https://images.unsplash.com/photo-1616264630975-c98543fbe751?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMTV8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 8px;
+}
+
+.home__col5__sec__box1__txt1,
+.home__col5__sec__box2__txt1,
+.home__col5__sec__box3__txt1,
+.home__col5__sec__box4__txt1 {
+  padding: 8px 0px 0px;
+  font-size: 18px;
+  color: #222222;
+  font-weight: 500;
 }
