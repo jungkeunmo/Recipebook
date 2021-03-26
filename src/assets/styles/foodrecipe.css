@@ -1,351 +1,165 @@
-.food {
+.home {
   width: 100%;
-  height: 1300px;
-
-  display: flex;
-  flex-direction: column;
 }
 
-.food .food__col1 {
-  width: 100%;
-  height: 180px;
-
-  display: flex;
-  flex-direction: row;
-}
-
-.food .food__col1 .food__col1__sec1 {
-  width: 5%;
-  height: 180px;
-}
-
-.food .food__col1 .food__col1__sec2 {
-  width: 90%;
-  height: 180px;
-
-  display: flex;
-  flex-direction: column;
-}
-
-.food .food__col1 .food__col1__sec2__box1 {
-  width: 100%;
-  height: 90px;
-}
-
-.food .food__col1 .food__col1__sec2__box2 {
-  width: 100%;
-  height: 90px;
-
-  font-size: 30px;
-}
-
-.food .food__col1 .food__col1__sec3 {
-  width: 5%;
-  height: 180px;
-}
-
-.food .food__col2 {
-  width: 100%;
-  height: 500px;
-
-  display: flex;
-  flex-direction: row;
-}
-
-.food .food__col2 .food__col2__sec1 {
-  width: 5%;
-  height: 500px;
-}
-
-.food .food__col2 .food__col2__sec2 {
-  width: 90%;
-  height: 500px;
-
-  display: flex;
-  flex-direction: column;
-}
-
-.food .food__col2 .food__col2__sec2__box1 {
-  width: 100%;
-  height: 100px;
-}
-
-.food .food__col2 .food__col2__sec2__box2 {
+.home .home__col1 {
   width: 100%;
   height: 300px;
+  border-bottom: 1px solid #bcbcbc;
 }
 
-.cm4 {
+.home .home__col2 {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #bcbcbc;
+}
+
+.home__col2__A,
+.home__col2__B,
+.home__col2__C {
+  width: 33%;
+  height: 350px;
+
+  margin: 50px 50px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 2px 1px rgb(168, 166, 166);
+}
+
+.home__col2__A__img {
+  width: 100%;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/21/ca/06/21ca0610729719e55894871a6f5eee65.jpg");
+  background-size: cover;
+}
+
+a {
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+}
+
+.home__col2__B__img {
+  width: 100%;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/28/63/26/286326ae7e0d5fef17784dcdcc5cbd20.jpg");
+  background-size: cover;
+}
+
+.home__col2__C__img {
+  width: 100%;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/94/0b/55/940b55f6bb5b85d0c7f73e74c028f92f.jpg");
+  background-size: cover;
+}
+
+.home__col3 {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #bcbcbc;
+}
+
+.home__col3__box1 {
+  width: 100%;
+  height: 400px;
+
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #bcbcbc;
+}
+
+.home__col3__box1__A,
+.home__col3__box1__B,
+.home__col3__box1__C,
+.home__col3__box1__D {
+  width: 33%;
+  height: 330px;
+
+  margin: 25px 25px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 2px 1px rgb(168, 166, 166);
+}
+
+.home__col3__box1__A__img {
+  width: 100%;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/4e/5e/6f/4e5e6f11c50165cd020b41f47198713e.jpg");
+  background-size: cover;
+}
+
+.home__col3__box1__B__img {
+  width: 100%;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/4b/d8/37/4bd8376269e632a62876fc37ed91ba55.jpg");
+  background-size: cover;
+}
+
+.home__col3__box1__C__img {
+  width: 100%;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/db/1f/e5/db1fe56e5ff1d5e66369cc2ae85c1b13.jpg");
+  background-size: cover;
+}
+
+.home__col3__box1__D__img {
+  width: 100%;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/2b/0b/7d/2b0b7d57beb3779d07bb4d3b8e63dcb2.jpg");
+  background-size: cover;
+}
+
+.home__col3__box2 {
+  width: 100%;
+  height: 400px;
+
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  border-bottom: 1px solid #bcbcbc;
 }
 
-.cm4 div {
-  margin: 10px;
-  border-radius: 8px;
+.home__col3__box2__E,
+.home__col3__box2__F,
+.home__col3__box2__G,
+.home__col3__box2__H {
+  width: 25%;
+  height: 330px;
+
+  margin: 0px 30px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 2px 1px rgb(168, 166, 166);
 }
 
-.food .food__col2 .food__col2__sec2__box2__w1 {
-  width: 20%;
-  height: 298px;
-  background-image: url("https://img.sbs.co.kr/newsnet/etv/upload/2021/01/08/30000662538_1280.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-
-.food .food__col2 .food__col2__sec2__box2__w2 {
-  width: 20%;
-  height: 298px;
-
-  background-image: url("http://www.aseanexpress.co.kr/data/photos/20200936/art_15990274892541_905fd5.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-
-.food .food__col2 .food__col2__sec2__box2__w3 {
-  width: 20%;
-  height: 298px;
-
-  background-image: url("https://newsimg.hankookilbo.com/cms/articlerelease/2021/02/09/ea90a7f3-d253-48e3-95d1-ceb805a27cd0.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-
-.food .food__col2 .food__col2__sec2__box2__w4 {
-  width: 20%;
-  height: 298px;
-
-  background-image: url("https://img.insight.co.kr/static/2019/10/10/700/2yk6hv66jl7938aa7y21.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-
-.food .food__col2 .food__col2__sec2__box2__w5 {
-  width: 20%;
-  height: 298px;
-
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScKJPH8meWP6z6bFxY0XJmDGrkOy3Gt9d7VQ&usqp=CAU");
-  background-size: cover;
-  background-position: center center;
-}
-
-.food .food__col2 .food__col2__sec2__box3 {
+.home__col3__box2__E__img {
   width: 100%;
-  height: 100px;
-
-  display: flex;
-  flex-direction: row;
-}
-
-.food .food__col2 .food__col2__sec2__box3__g1 {
-  width: 20%;
-  height: 100px;
-}
-
-.food .food__col2 .food__col2__sec2__box3__g2 {
-  width: 20%;
-  height: 100px;
-}
-
-.food .food__col2 .food__col2__sec2__box3__g3 {
-  width: 20%;
-  height: 100px;
-}
-
-.food .food__col2 .food__col2__sec2__box3__g4 {
-  width: 20%;
-  height: 100px;
-}
-
-.food .food__col2 .food__col2__sec2__box3__g5 {
-  width: 20%;
-  height: 100px;
-}
-
-.food .food__col2 .food__col2__sec3 {
-  width: 5%;
-  height: 500px;
-}
-
-.food .food__col3 {
-  width: 100%;
-  height: 500px;
-
-  display: flex;
-  flex-direction: row;
-  background-color: #000;
-}
-
-.food .food__col3 .food__col3__sec1 {
-  width: 5%;
-  height: 500px;
-}
-
-.food .food__col3 .food__col3__sec2 {
-  width: 90%;
-  height: 500px;
-
-  display: flex;
-  flex-direction: column;
-}
-
-.food .food__col3 .food__col3__sec2__box1 {
-  width: 100%;
-  height: 100px;
-}
-
-.food .food__col3 .food__col3__sec2__box2 {
-  width: 100%;
-  height: 300px;
-
-  display: flex;
-  flex-direction: row;
-}
-
-.cm5 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.cm5 div {
-  margin: 10px;
-  border-radius: 8px;
-}
-
-.food .food__col3 .food__col3__sec2__box2__r1 {
-  width: 20%;
-  height: 298px;
-
-  background-image: url("https://cdn1.i-scmp.com/sites/default/files/styles/1200x800/public/images/methode/2018/10/24/40769bf6-d740-11e8-a41d-3d2712b32637_1280x720_171954.jpg?itok=ywHhP-6K");
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/a8/af/1d/a8af1d6549bd2984683f016106362704.jpg");
   background-size: cover;
-  background-position: center center;
 }
 
-.food .food__col3 .food__col3__sec2__box2__r2 {
-  width: 20%;
-  height: 298px;
-
-  background-image: url("https://pbs.twimg.com/profile_images/1325091171308244993/si3Ujk2B_400x400.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-
-.food .food__col3 .food__col3__sec2__box2__r3 {
-  width: 20%;
-  height: 298px;
-
-  background-image: url("https://cdnweb01.wikitree.co.kr/webdata/editor/202005/20/img_20200520095501_040731e0.webp");
-  background-size: cover;
-  background-position: center center;
-}
-
-.food .food__col3 .food__col3__sec2__box2__r4 {
-  width: 20%;
-  height: 298px;
-
-  background-image: url("https://cdn.kihoilbo.co.kr/news/photo/202007/878686_301172_580.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-
-.food .food__col3 .food__col3__sec2__box2__r5 {
-  width: 20%;
-  height: 298px;
-
-  background-image: url("https://mblogthumb-phinf.pstatic.net/MjAyMDA0MDdfMTA1/MDAxNTg2MTg2OTMxNjg1.DrxFEdqGvvnmJ60LtasXNq8AuMtVsAI4_6xwYty7SNEg.SWkH8AHl-Bu915MBTYBSef1C-wLcLaHFpD4hAJlXppMg.JPEG.okmijnuhb489/1586186930537.jpg?type=w800");
-  background-size: cover;
-  background-position: center center;
-}
-
-.food .food__col3 .food__col3__sec2__box3 {
+.home__col3__box2__F__img {
   width: 100%;
-  height: 100px;
-
-  display: flex;
-  flex-direction: row;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/67/a2/fe/67a2fe55d9e70d0131e33617f4138eb8.jpg");
+  background-size: cover;
 }
 
-.food .food__col3 .food__col3__sec2__box3__t1 {
-  width: 20%;
-  height: 100px;
-}
-
-.food .food__col3 .food__col3__sec2__box3__t2 {
-  width: 20%;
-  height: 100px;
-}
-
-.food .food__col3 .food__col3__sec2__box3__t3 {
-  width: 20%;
-  height: 100px;
-}
-
-.food .food__col3 .food__col3__sec2__box3__t4 {
-  width: 20%;
-  height: 100px;
-}
-
-.food .food__col3 .food__col3__sec2__box3__t5 {
-  width: 20%;
-  height: 100px;
-}
-
-.food .food__col3 .food__col3__sec3 {
-  width: 5%;
-  height: 500px;
-}
-
-.food .food__col4 {
+.home__col3__box2__G__img {
   width: 100%;
-  height: 120px;
-
-  display: flex;
-  flex-direction: row;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/eb/85/54/eb8554ef90647231292c902341ff41e8.jpg");
+  background-size: cover;
 }
 
-.food .food__col4 .food__col4__sec1 {
-  width: 5%;
-  height: 120px;
-}
-
-.food .food__col4 .food__col4__sec2 {
-  width: 90%;
-  height: 120px;
-}
-
-.food .food__col4 .food__col4__sec3 {
-  width: 5%;
-  height: 120px;
-}
-
-.food__col2__sec2__box1 p {
-  color: rgb(167, 223, 39);
-  font-size: 20px;
-  margin-top: 65px;
-  margin-left: 10px;
-}
-
-.food__col2__sec2__box3 p {
-  color: rgb(167, 223, 39);
-  font-size: 20px;
-  margin-top: 8px;
-  margin-left: 10px;
-}
-
-.food__col3__sec2__box1 p {
-  color: #ffffff;
-  font-size: 20px;
-  margin-top: 65px;
-  margin-left: 10px;
-}
-
-.food__col3__sec2__box3 p {
-  color: #ffffff;
-  font-size: 20px;
-  margin-top: 8px;
-  margin-left: 10px;
+.home__col3__box2__H__img {
+  width: 100%;
+  height: 85%;
+  background-image: url("https://i.pinimg.com/474x/20/4c/6a/204c6a4701d6480bd236457dca6dd8a9.jpg");
+  background-size: cover;
 }
