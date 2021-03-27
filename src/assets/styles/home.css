@@ -312,8 +312,7 @@
 
 .home__col4__sec__box1,
 .home__col4__sec__box2,
-.home__col4__sec__box3,
-.home__col4__sec__box4 {
+.home__col4__sec__box3 {
   width: 33.33333333333333333333333333333333333%;
   height: 490px;
   display: flex;
@@ -389,8 +388,7 @@
 
 .home__col5__sec__box1,
 .home__col5__sec__box2,
-.home__col5__sec__box3,
-.home__col5__sec__box4 {
+.home__col5__sec__box3 {
   width: 33.33333333333333333333333333333333333%;
   height: 378px;
   display: flex;
