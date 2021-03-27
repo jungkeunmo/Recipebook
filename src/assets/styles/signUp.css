@@ -1,9 +1,12 @@
-.app2,
 .app1 {
-  display: flex;
   justify-content: center;
   align-items: center;
-  height: 250px;
+}
+
+.aap2 {
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
 
 .app1::before {

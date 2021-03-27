@@ -1,27 +1,32 @@
 extends ../layouts/main.pug
 
 block content
-    .app1
-        h1 SIGN UP
-    .app2
+    .app
+        .app1
+            h1 SIGN UP
+        .app2
         
-        form(action="")
-            .int-area   
+            form(action="")
+                .int-area  
+                    input(type="text" name="id" id="id" autocompelete="off" required)
+                    label(for="id") USER NAME
+
+                .int-area  
                     input(type="text" name="email" id="email" autocompelete="off" required)
                     label(for="id") USER EMAIL
 
-            .int-area
+                .int-area
                     input(type="pw" name="password" id="password" autocompelete="off" required)
                     label(for="password") PASS WORD
                     p 비밀번호는 숫자가 한 개 이상 포함되어 있어야 합니다.
 
-            .int-area
+                .int-area
                     input(type="password" name="cpassword" id="cpassword" autocompelete="off" required)
                     label(for="password") ONE PASS WORD
                     
             
-            .but-area
-                button(type="submt" id="btn") LOGIN
+                .but-area
+                    button(type="submt" id="btn") LOGIN
     
 
 

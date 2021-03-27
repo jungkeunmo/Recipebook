@@ -18,7 +18,13 @@ const forgotController = async (req, res) => {
 };
 
 const signUpController = async (req, res) => {
-  res.render("screens/signUP");
+  try {
+    res.render("screens/signUp");
+    const SignupData = await SignupData.find();
+  } catch (e) {
+    console.log(e);
+    res.render("screens/home");
+  }
 };
 
 const helpController = async (req, res) => {
