@@ -363,3 +363,11 @@
   background-position: center center;
   border-radius: 10px;
 }
+
+.food__col5__sec1__box__add1__txt,
+.food__col5__sec1__box__add2__txt,
+.food__col5__sec1__box__add3__txt,
+.food__col5__sec1__box__add4__txt,
+.food__col5__sec1__box__add5__txt {
+  padding: 10px 0px;
+}
