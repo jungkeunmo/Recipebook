@@ -12,5 +12,6 @@ globalRouter.get("/help", globalController.helpController);
 globalRouter.get("/safety", globalController.safetyController);
 globalRouter.get("/recipeWritten", globalController.recipeWrittenController);
 globalRouter.get("/question", globalController.questionController);
+globalRouter.get("/notice", globalController.noticeController);
 
 export default globalRouter;
