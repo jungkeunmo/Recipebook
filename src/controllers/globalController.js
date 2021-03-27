@@ -47,6 +47,10 @@ const noticeController = (req, res) => {
   res.render("footers/notice");
 };
 
+const precautionsController = (req, res) => {
+  res.render("screens/precautions");
+};
+
 const globalController = {
   homeController,
   loginController,
@@ -58,6 +62,7 @@ const globalController = {
   recipeWrittenController,
   questionController,
   noticeController,
+  precautionsController,
 };
 
 export default globalController;
