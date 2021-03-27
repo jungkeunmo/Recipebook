@@ -18,13 +18,7 @@ const forgotController = async (req, res) => {
 };
 
 const signUpController = async (req, res) => {
-  try {
-    res.render("screens/signUp");
-    const SignupData = await SignupData.find();
-  } catch (e) {
-    console.log(e);
-    res.render("screens/home");
-  }
+  res.render("screens/signUP");
 };
 
 const helpController = async (req, res) => {
@@ -44,11 +38,11 @@ const questionController = (req, res) => {
 };
 
 const noticeController = (req, res) => {
-  res.render("footers/notice");
+  res.render("screens/home");
 };
 
 const precautionsController = (req, res) => {
-  res.render("screens/precautions");
+  res.render("screens/home");
 };
 
 const globalController = {
@@ -61,8 +55,8 @@ const globalController = {
   safetyController,
   recipeWrittenController,
   questionController,
-  noticeController,
   precautionsController,
+  noticeController,
 };
 
 export default globalController;
