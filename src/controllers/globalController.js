@@ -29,8 +29,8 @@ const safetyController = async (req, res) => {
   res.render("footers/safety");
 };
 
-const recipeWrittenController = (req, res) => {
-  res.render("screens/recipeWritten");
+const recipeWriteController = (req, res) => {
+  res.render("screens/recipeWrite");
 };
 
 const questionController = (req, res) => {
@@ -49,7 +49,7 @@ const globalController = {
   signUpController,
   helpController,
   safetyController,
-  recipeWrittenController,
+  recipeWriteController,
   questionController,
   precautionsController,
 };
