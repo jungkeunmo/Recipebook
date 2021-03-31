@@ -10,7 +10,7 @@ globalRouter.get("/forgot", globalController.forgotController);
 globalRouter.get("/signUp", globalController.signUpController);
 globalRouter.get("/help", globalController.helpController);
 globalRouter.get("/safety", globalController.safetyController);
-globalRouter.get("/recipeWritten", globalController.recipeWrittenController);
+globalRouter.get("/recipeWrite", globalController.recipeWriteController);
 globalRouter.get("/question", globalController.questionController);
 globalRouter.get("/precautions", globalController.precautionsController);
 
