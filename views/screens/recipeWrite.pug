@@ -1,4 +1,10 @@
 extends ../layouts/main.pug
 
-block content 
-    h1 hello word
+block content
+    div.write
+        h2 write page
+        form(action="/screens/foodrecipe" method="POST") 
+            input.write__Title(type="text" placeholder="제목을 입력해주세요" name="title")
+            textarea.write__Desc(placeholder="내용을 입력해주세요" name="desc")
+            input(type="hidden" name="type" value=type)
+            button.write__btn 등록하기
