@@ -4,6 +4,7 @@ dotenv.config();
 import morgan from "morgan";
 import path from "path";
 import globalRouter from "./routers/globalRouter";
+import boardRouter from "./routers/boardRouter";
 
 const PORT = process.env.PORT;
 const app = express();
