@@ -28,3 +28,27 @@ const Question = new Schema(
 );
 
 export default mongoose.model(`Question`, Question, `Question`);
+
+signup(
+  {
+    username: {
+      type: String,
+      required: true,
+    },
+    useremail: {
+      type: String,
+      required: true,
+    },
+    password: {
+      type: String,
+      required: true,
+    },
+    onepassword: {
+      type: String,
+      required: true,
+    },
+  },
+  { versionKey: false }
+);
+
+export default mongoose.model(`signUp`, signUp, `signUp`);
