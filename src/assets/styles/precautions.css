@@ -81,7 +81,9 @@
 .precautions__col7__sec__txt1,
 .precautions__col8__sec__txt1,
 .precautions__col9__sec__txt1,
-.precautions__col12__sec__txt1 {
+.precautions__col12__sec__txt1,
+.precautions__col13__sec__txt1,
+.precautions__col14__sec__txt1 {
   font-size: 24px;
   font-weight: 700;
   color: #484848;
@@ -92,7 +94,9 @@
 .precautions__col7__sec__txt2,
 .precautions__col8__sec__txt2,
 .precautions__col9__sec__txt2,
-.precautions__col12__sec__txt2 {
+.precautions__col12__sec__txt2,
+.precautions__col13__sec__txt2,
+.precautions__col14__sec__txt2 {
   width: 400px;
   font-size: 16px;
   font-weight: 300;
@@ -133,7 +137,7 @@
 .precautions__col7 {
   width: 100%;
   height: 440px;
-  padding: 10px 204px 0px;
+  padding: 30px 204px 0px;
   display: flex;
   flex-direction: row;
 }
@@ -141,7 +145,9 @@
 .precautions__col7__sec,
 .precautions__col8__sec,
 .precautions__col9__sec,
-.precautions__col12__sec {
+.precautions__col12__sec,
+.precautions__col13__sec,
+.precautions__col14__sec {
   width: 50%;
   height: 430px;
   display: flex;
@@ -161,7 +167,9 @@
 
 .precautions__col8,
 .precautions__col9,
-.precautions__col12 {
+.precautions__col12,
+.precautions__col13,
+.precautions__col14 {
   width: 100%;
   height: 490px;
   padding: 60px 204px 0px;
@@ -217,6 +225,26 @@
   height: 430px;
   margin: 0px 80px 0px 0px;
   background-image: url("https://images.unsplash.com/photo-1617375345529-1dc1b307f29e?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMjh8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.precautions__col13__img {
+  width: 430px;
+  height: 430px;
+  margin: 0px 80px 0px 0px;
+  background-image: url("https://images.unsplash.com/photo-1565299507177-b0ac66763828?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8YnVyZ2VyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.precautions__col14__img {
+  width: 430px;
+  height: 430px;
+  margin: 0px 80px 0px 0px;
+  background-image: url("https://images.unsplash.com/photo-1531947398206-60f8e97f34a2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjR8fGJ1cmdlcnxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=800&q=60");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
