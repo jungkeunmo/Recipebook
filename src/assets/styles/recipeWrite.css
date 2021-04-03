@@ -23,7 +23,7 @@
   font-size: 20px;
   font-weight: 600;
   padding: 10px;
-  border-bottom: 1px solid #bae4f8;
+  border-bottom: 1px solid #e5f7d8;
 }
 
 .writeWrapper .writeWrapper__title {
@@ -35,14 +35,14 @@
   background: none;
 
   border-radius: 5px;
-  box-shadow: 3px 3px 2px #bae4f8;
+  box-shadow: 3px 3px 2px#7daa5d;
   transition: 0.5s;
-  border: 1px solid #bae4f8;
+  border: 1px solid #7daa5d;
   margin-bottom: 20px;
 }
 
 .writeWrapper .writeWrapper__title:focus {
-  border: 2px solid #bae4f8;
+  border: 2px solid #7daa5d;
 }
 
 .writeWrapper .writeWrapper__desc {
@@ -54,23 +54,23 @@
   background: none;
 
   border-radius: 5px;
-  box-shadow: 3px 3px 3px #bae4f8;
+  box-shadow: 3px 3px 3px #7daa5d;
   transition: 0.5s;
-  border: 1px solid #bae4f8;
+  border: 1px solid #7daa5d;
   resize: none;
 }
 
 .writeWrapper .writeWrapper__desc:focus {
-  border: 2px solid #bae4f8;
+  border: 2px solid #7daa5d;
 }
 
 .writeWrapper .writeWrapper__btn {
   width: 120px;
   height: 30px;
   border-radius: 4px;
-  background-color: #bae4f8;
+  background-color: #b8e994;
   color: #fff;
-  box-shadow: 3px 3px 3px #bae4f8;
+  box-shadow: 3px 3px 3px #b8e994;
   border: none;
   outline: none;
   transition: 0.5s;

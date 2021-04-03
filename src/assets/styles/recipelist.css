@@ -98,3 +98,16 @@
   align-items: center;
   justify-content: center;
 }
+.listBtn {
+  font-size: 19px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0px 0px 10px 1500px;
+  background-color: #ffffff;
+  border: none;
+  border: 1.5px solid #000;
+}
+
+.listBtn:hover {
+  cursor: pointer;
+}

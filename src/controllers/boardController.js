@@ -11,8 +11,13 @@ const recipeWriteController = async (req, res) => {
   }
 };
 
+const recipelistController = (req, res) => {
+  res.render("screens/recipelist");
+};
+
 const boradController = {
   recipeWriteController,
+  recipelistController,
 };
 
 export default boradController;
