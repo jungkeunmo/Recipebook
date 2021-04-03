@@ -81,3 +81,8 @@
 .writeWrapper .writeWrapper__btn:hover {
   border: 2px solid #fff;
 }
+
+.writeWrapper .writeWrapper__btn a {
+  color: #fff;
+  font-size: 15px;
+}
