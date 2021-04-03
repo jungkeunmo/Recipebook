@@ -9,6 +9,7 @@ const recipeWriteController = async (req, res) => {
     res.render("screens/recipeWrite", { PostData });
   } catch (e) {
     console.log(e);
+    res.render("screens/home");
   }
 };
 
