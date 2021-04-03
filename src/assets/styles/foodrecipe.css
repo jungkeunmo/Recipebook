@@ -1,6 +1,6 @@
 .food {
   width: 100%;
-  height: calc(420vh - 60px);
+  height: calc(2106px - 60px);
   display: flex;
   flex-direction: column;
 }
