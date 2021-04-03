@@ -1,5 +1,6 @@
-import { Mongoose } from "mongoose";
 import Post from "../models/post";
+import dotenv from "dotenv";
+dotenv.config();
 
 const recipeWriteController = async (req, res) => {
   try {

@@ -45,10 +45,8 @@ const globalController = {
   signUpController,
   helpController,
   safetyController,
-  recipeWriteController,
   questionController,
   precautionsController,
-  recipelistController,
 };
 
 export default globalController;

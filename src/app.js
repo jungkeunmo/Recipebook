@@ -14,6 +14,7 @@ app.set("view engine", "pug");
 app.use(express.static(path.join(__dirname, "/assets")));
 
 app.use("/", globalRouter);
+app.use("/board", boardRouter);
 
 app.listen(PORT, () => {
   console.log(`${PORT} SERVER START🥕`);
