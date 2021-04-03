@@ -1,6 +1,7 @@
 .home {
   width: 100%;
-  height: calc(2472px - 60px);
+  height: calc(2534px - 60px);
+  padding-top: 60px;
 }
 
 .home__col1 {

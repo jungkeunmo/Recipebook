@@ -1,8 +1,9 @@
 .food {
   width: 100%;
-  height: calc(2106px - 60px);
+  height: calc(2166px - 60px);
   display: flex;
   flex-direction: column;
+  padding-top: 60px;
 }
 
 .food__col1 {
