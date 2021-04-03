@@ -1,6 +1,6 @@
 .precautions {
   width: 100%;
-  height: calc(4000px - 60px);
+  height: calc(7000px - 60px);
 }
 
 .precautions__col1 {
@@ -181,6 +181,7 @@
   width: 100%;
   height: 490px;
   padding: 60px 204px 0px;
+  margin-bottom: 146px;
   display: flex;
   flex-direction: row;
 }
@@ -201,4 +202,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.precautions__col10 {
+  width: 100%;
+  height: 580px;
+  padding: 0px 204px;
 }
