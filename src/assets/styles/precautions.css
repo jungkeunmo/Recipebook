@@ -1,7 +1,6 @@
 .precautions {
   width: 100%;
-  height: calc(4000px - 60px);
-  padding: 60px 0px 0px;
+  height: calc(1000vh - 60px);
 }
 
 .precautions__col1 {
@@ -180,8 +179,8 @@
 
 .precautions__col9 {
   width: 100%;
-  height: 440px;
-  padding: 10px 204px 0px;
+  height: 490px;
+  padding: 60px 204px 0px;
   display: flex;
   flex-direction: row;
 }
