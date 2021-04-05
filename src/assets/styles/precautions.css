@@ -1,6 +1,6 @@
 .precautions {
   width: 100%;
-  height: calc(7000px - 60px);
+  height: calc(7500px - 60px);
   padding-top: 60px;
 }
 
@@ -18,7 +18,8 @@
 .precautions__col1__txt1,
 .precautions__col3__txt1,
 .precautions__col6__txt1,
-.precautions__col11__txt1 {
+.precautions__col11__txt1,
+.precautions__col15__txt {
   font-size: 60px;
   font-weight: 700;
   color: #333333;
@@ -137,7 +138,7 @@
 
 .precautions__col7 {
   width: 100%;
-  height: 440px;
+  height: 460px;
   padding: 30px 204px 0px;
   display: flex;
   flex-direction: row;
@@ -259,6 +260,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 80px;
 }
 
 .precautions__col15__txt {
