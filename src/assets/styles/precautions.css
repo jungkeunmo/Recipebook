@@ -46,7 +46,7 @@
 .precautions__col2__img {
   width: 100%;
   height: 425px;
-  background-image: url("https://a0.muscache.com/pictures/e93b26f2-3f2d-4ad3-a89e-6b6309201d24.jpg");
+  background-image: url("https://images.unsplash.com/photo-1617655371672-21b15c4d109b?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -263,5 +263,36 @@
   margin-top: 80px;
 }
 
-.precautions__col15__txt {
+.precautions__col16 {
+  width: 100%;
+  height: 178px;
+  display: flex;
+  flex-direction: row;
+  padding: 00px 204px;
+  margin-top: 64px;
+}
+
+.precautions__col16__sec1,
+.precautions__col16__sec2 {
+  width: 50%;
+  height: 178px;
+  display: flex;
+  flex-direction: column;
+}
+
+.precautions__col16__sec1__txt1,
+.precautions__col16__sec2__txt1 {
+  width: 400px;
+  font-size: 24px;
+  color: #484848;
+  font-weight: 700;
+}
+
+.precautions__col16__sec1__txt2,
+.precautions__col16__sec2__txt2 {
+  width: 400px;
+  padding: 16px 0px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #484848;
 }
