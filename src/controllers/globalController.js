@@ -45,6 +45,10 @@ const recipelistController = async (req, res) => {
   res.render("screens/recipelist");
 };
 
+const serveController = async (req, res) => {
+  res.render("screens/serve");
+};
+
 const globalController = {
   homeController,
   loginController,
@@ -57,6 +61,7 @@ const globalController = {
   precautionsController,
   recipeWriteController,
   recipelistController,
+  serveController,
 };
 
 export default globalController;
