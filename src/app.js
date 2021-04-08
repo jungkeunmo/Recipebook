@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 dotenv.config();
 import morgan from "morgan";
 import path from "path";
-import globalRouter from "./routers/globalRouter";
+import globalRouter from "./router/globalRouter";
 
 const PORT = process.env.PORT;
 const app = express();
