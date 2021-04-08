@@ -4,6 +4,7 @@
   background-color: #fafafa;
   display: flex;
   flex-direction: row;
+  cursor: pointer;
 }
 
 .appheader__col1 {
