@@ -37,14 +37,6 @@ const precautionsController = (req, res) => {
   res.render("screens/precautions");
 };
 
-const recipeWriteController = async (req, res) => {
-  res.render("screens/recipewrite");
-};
-
-const recipelistController = async (req, res) => {
-  res.render("screens/recipelist");
-};
-
 const serveController = async (req, res) => {
   res.render("screens/serve");
 };
@@ -59,8 +51,6 @@ const globalController = {
   safetyController,
   questionController,
   precautionsController,
-  recipeWriteController,
-  recipelistController,
   serveController,
 };
 

@@ -3,17 +3,15 @@ import globalController from "../controllers/globalController";
 
 const globalRouter = express.Router();
 
-globalRouter.get("/", globalController.homeController);
-globalRouter.get("/login", globalController.loginController);
-globalRouter.get("/foodrecipe", globalController.foodrecipeController);
-globalRouter.get("/forgot", globalController.forgotController);
-globalRouter.get("/signUp", globalController.signUpController);
-globalRouter.get("/help", globalController.helpController);
-globalRouter.get("/safety", globalController.safetyController);
-globalRouter.get("/question", globalController.questionController);
-globalRouter.get("/precautions", globalController.precautionsController);
-globalRouter.get("/recipelist", globalController.recipelistController);
-globalRouter.get("/recipeWrite", globalController.recipeWriteController);
-globalRouter.get("/serve", globalController.serveController);
+globalRouter.get(routes.HOME, globalController.homeController);
+globalRouter.get(routes.LOGIN, globalController.loginController);
+globalRouter.get(routes.FOOD_RECIPE, globalController.foodrecipeController);
+globalRouter.get(routes.FORGOT, globalController.forgotController);
+globalRouter.get(routes.SIGNUP, globalController.signUpController);
+globalRouter.get(routes.HELP, globalController.helpController);
+globalRouter.get(routes.SAFETY, globalController.safetyController);
+globalRouter.get(routes.QUESTION, globalController.questionController);
+globalRouter.get(routes.PRECAUTIONS, globalController.precautionsController);
+globalRouter.get(routes.SERVE, globalController.serveController);
 
 export default globalRouter;

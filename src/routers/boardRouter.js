@@ -3,7 +3,7 @@ import boardController from "../controllers/boardController";
 
 const boardRouter = express.Router();
 
-boardRouter.get("/reciepWrite", boardController.writeController);
-boardRouter.get("/recipelist", boardController.listController);
+boardRouter.get(routes.RECIPE_WRITE, boardController.writeController);
+boardRouter.get(routes.RECIPE_LIST, boardController.listController);
 
 export default boardRouter;
