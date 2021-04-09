@@ -4,6 +4,7 @@ const HOME = "/";
 //board
 const RECIPE_WRITE = "/reciepWrite";
 const RECIPE_LIST = "/recipelist";
+const RECIPE_WRITEDB = "/recipewriteDB";
 
 //login
 const LOGIN = "/login";
@@ -31,4 +32,5 @@ export const routers = {
   QUESTION,
   PRECAUTIONS,
   SERVE,
+  RECIPE_WRITEDB,
 };

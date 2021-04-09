@@ -11,9 +11,13 @@ const listController = async (req, res) => {
   res.render("screens/recipelist");
 };
 
+const writedbController = async (req, res) => {
+  res.render("screens/recipewriteDb");
+};
 const boardController = {
   writeController,
   listController,
+  writedbController,
 };
 
 export default boardController;
