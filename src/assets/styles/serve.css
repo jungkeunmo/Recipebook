@@ -358,13 +358,13 @@
 }
 
 .serve__col5__sec__box1 {
-  width: 584px;
+  width: 50%;
   height: 625px;
   padding: 0px 8px;
 }
 
 .serve__col5__sec__box1__img {
-  width: 100%;
+  width: 568px;
   height: 625px;
   background-image: url("https://images.unsplash.com/photo-1606851094291-6efae152bb87?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjR8fGZvb2R8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
   background-size: cover;
@@ -373,13 +373,13 @@
 }
 
 .serve__col5__sec__box2 {
-  width: 584px;
+  width: 50%;
   height: 625px;
   padding: 0px 8px;
 }
 
 .serve__col5__sec__box2__txt {
-  width: 100%;
+  width: 568px;
   height: 625px;
   background-color: #faf2f2;
   padding: 180px 122px;
