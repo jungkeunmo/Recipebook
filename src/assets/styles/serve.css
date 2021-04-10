@@ -231,7 +231,8 @@
 
 .serve__col3__box1__txt__box1,
 .serve__col3__box2__txt__box1,
-.serve__col3__box3__txt__box1 {
+.serve__col3__box3__txt__box1,
+.serve__col5__sec__box2__txt__box1 {
   font-size: 40px;
   color: #484848;
   font-weight: 400;
@@ -240,7 +241,8 @@
 
 .serve__col3__box1__txt__box2,
 .serve__col3__box2__txt__box2,
-.serve__col3__box3__txt__box2 {
+.serve__col3__box3__txt__box2,
+.serve__col5__sec__box2__txt__box2 {
   font-size: 18px;
   color: #484848;
   padding: 8px 0px;
@@ -248,7 +250,8 @@
 
 .serve__col3__box1__txt__box3,
 .serve__col3__box2__txt__box3,
-.serve__col3__box3__txt__box3 {
+.serve__col3__box3__txt__box3,
+.serve__col5__sec__box2__txt__box3 {
   font-size: 16px;
   color: #008489;
   padding: 8px 0px;
@@ -379,4 +382,51 @@
   width: 568px;
   height: 625px;
   background-color: #faf2f2;
+  padding: 180px 122px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.serve__col6 {
+  width: 100%;
+  height: 454px;
+  background-color: #ebebeb;
+  padding: 50px 204px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.serve__col6__txt1 {
+  font-size: 46px;
+  padding: 8px 0px;
+  color: #484848;
+}
+
+.serve__col6__txt2 {
+  font-size: 16px;
+  color: #484848;
+  padding: 20px 0px;
+}
+
+.serve__col6__txt3 {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 20px;
+}
+
+.serve__col6__txt3__box1 input {
+  width: 300px;
+  height: 60px;
+  margin: 10px 0px 10px 300px;
+  border-radius: 5px;
+}
+
+.serve__col6__txt3__box2 {
+  width: 100%;
+  height: 60px;
+  margin: 10px 0px 10px;
 }
