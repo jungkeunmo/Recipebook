@@ -15,6 +15,7 @@ const Post = new Schema(
     hit: {
       type: Number,
       required: true,
+      defult: 0,
     },
     author: {
       type: String,
@@ -28,6 +29,11 @@ const Post = new Schema(
       type: Boolean,
       required: true,
       default: false,
+    },
+
+    no: {
+      type: Number,
+      required: true,
     },
   },
   { versionKey: false }
